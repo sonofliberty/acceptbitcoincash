@@ -1,18 +1,13 @@
 require 'yaml'
 require 'fastimage'
 require 'kwalify'
+require 'diffy'
 @output = 0
-
-# YAML tags related to TFA
-@tfa_tags = {
-  # YAML tags for TFA Yes
-  true => %w[email hardware software sms phone doc],
-  # YAML tags for TFA No
-  false => %w[status twitter facebook email_address lang]
-}.freeze
+@output_soft = 0
 
 # Image max size (in bytes)
-@img_max_size = 2500
+@img_recommended_size = 2500
+@img_max_size = 3000
 
 # Image dimensions
 @img_dimensions = [32, 32]
@@ -20,14 +15,20 @@ require 'kwalify'
 # Image format used for all images in the 'img/' directories.
 @img_extension = '.png'
 
+# List all section files
+@section_files = [
+  '_data/sections.yml',
+  '_data/adult-sections.yml',
+  '_data/donation-sections.yml'
+]
+
 # Send error message
 def error(msg)
   @output += 1
-  puts "<------------ ERROR ------------>\n" if @output == 1
-  puts "#{@output}. #{msg}"
+  puts "  #{@output}. #{msg}"
 end
 
-# rubocop:disable AbcSize,CyclomaticComplexity
+# rubocop:disable AbcSize
 def test_img(img, name, imgs)
   # Exception if image file not found
   raise "#{name} image not found." unless File.exist?(img)
@@ -43,59 +44,84 @@ def test_img(img, name, imgs)
     unless File.extname(img) == @img_extension && FastImage.type(img) == :png
 
   # Check image file size
-  img_size = File.size(img)
-  return unless img_size > @img_max_size
-  error("#{img} should not be larger than #{@img_max_size} bytes. It is"\
-          " currently #{img_size} bytes.")
+  test_img_size(File.size(img))
 end
-# rubocop:enable AbcSize,CyclomaticComplexity
 
-# Load each section, check for errors such as invalid syntax
-# as well as if an image is missing
-begin
-  sections = YAML.load_file('_data/sections.yml')
+def test_img_size(file_size)
+  return unless file_size > @img_recommended_size
+
+  error("#{img} should not be larger than #{@img_recommended_size} bytes. "\
+          "It is currently #{file_size} bytes.")
+
+  @output_soft += 1\
+    if file_size < @img_max_size
+end
+
+# rubocop:disable MethodLength
+def process_sections_file(path)
+  err_count = @output
+  sections = YAML.load_file(path)
+  puts "Processing: #{path}\n"
+
   # Check sections.yml alphabetization
-  error('section.yml is not alphabetized by name') \
+  error("#{path} is not alphabetized by name") \
     if sections != (sections.sort_by { |section| section['id'].downcase })
-  schema = YAML.load_file('websites_schema.yml')
+  schema = YAML.load_file(File.join(__dir__, 'websites_schema.yml'))
   validator = Kwalify::Validator.new(schema)
   sections.each do |section|
-    data = YAML.load_file("_data/#{section['id']}.yml")
+    section_file = "_data/#{section['id']}.yml"
+    data = YAML.load_file(File.join(__dir__, section_file))
     websites = data['websites']
     errors = validator.validate(data)
 
     errors.each do |e|
-      error("#{websites.at(e.path.split('/')[2].to_i)['name']}: #{e.message}")
+      error("#{section_file}:#{websites.at(e.path.split('/')[2].to_i)['name']}"\
+        ": #{e.message}")
     end
 
     # Check section alphabetization
-    error("_data/#{section['id']}.yml is not alphabetized by name") \
-      if websites != (websites.sort_by { |website| website['name'].downcase })
+    if websites != (sites_sort = websites.sort_by { |s| s['name'].downcase })
+      error("#{section_file} not ordered by name. Correct order:" \
+        "\n" + Diffy::Diff.new(websites.to_yaml, sites_sort.to_yaml, \
+                               context: 10).to_s(:color))
+    end
 
     # Collect list of all images for section
     imgs = Dir["img/#{section['id']}/*"]
 
     websites.each do |website|
-      @tfa_tags[!website['tfa']].each do |tag|
-        next if website[tag].nil?
-        error("\'#{tag}\' should NOT be "\
-            "present when tfa: #{website['tfa'] ? 'true' : 'false'}.")
-      end
-      test_img("img/#{section['id']}/#{website['img']}", website['name'],
-               imgs)
+      next if website['img'].nil?
+      test_img("img/#{section['id']}/#{website['img']}", \
+               website['name'], imgs)
     end
 
     # After removing images associated with entries in test_img, alert
     # for unused or orphaned images
-    imgs.each { |img| next unless img.nil? error("#{img} is not used") }
+    imgs.each do |img|
+      next unless img.nil?
+      error("#{img} is not used")
+    end
   end
+
+  puts "  No errors found\n" if @output == err_count
+end
+# rubocop:enable AbcSize,MethodLength
+
+# Load each section, check for errors such as invalid syntax
+# as well as if an image is missing
+begin
+  @section_files.each do |file|
+    process_sections_file(file)
+  end
+
+  @output -= @output_soft
 
   exit 1 if @output > 0
 rescue Psych::SyntaxError => e
   puts "<------------ ERROR in a YAML file ------------>\n"
   puts e
   exit 1
-rescue => e
+rescue StandardError => e
   puts e
   exit 1
 else

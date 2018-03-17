@@ -1,183 +1,290 @@
 websites:
+    - name: Anarchaforko
+      url: https://anarchaforko.com/
+      facebook: Anarchaforko
+      img: anarchaforko.png
+      country: MX
+      city: Acapulco
+      bch: yes
+      btc: no
+      othercrypto: yes
+
+    - name: Anarchapulco
+      url: https://anarchapulco.com/
+      twitter: Anarchapulco
+      facebook: anarchapulco
+      img: anarchapulco.png
+      country: MX
+      city: Acapulco
+      bch: yes
+      btc: yes
+      othercrypto: no
+
     - name: Bandcamp
       url: https://bandcamp.com
+      img: bandcamp.png
+      bch: No
       twitter: bandcamp
       facebook: Bandcamp
-      img: bandcamp.png
-      tfa: No
+
+    - name: CashVid.io
+      url: https://www.cashvid.io
+      twitter: CashVidio
+      facebook: CashVid.io
+      img: cashvidio.png
+      bch: yes
+      btc: no
+      othercrypto: no
+      doc: https://www.cashvid.io/Faq.php
 
     - name: CD Baby
       url: https://www.cdbaby.com/
+      img: cdbaby.png
+      bch: No
       twitter: cdbaby
       facebook: cdbaby
-      img: cdbaby.png
-      tfa: No
+      
+    - name: computerbase.de
+      url: https://www.computerbase.de/
+      img: computerbase.png
+      twitter: computerbase
+      facebook: computerbase
+      bch: Yes
+      btc: Yes
+      othercrypto: No
+
+    - name: Counter Markets
+      url: http://countermarkets.com/
+      twitter: countermarkets
+      facebook: CounterMarkets
+      img: countermarkets.png
+      bch: yes
+      btc: no
+      othercrypto: yes
 
     - name: Crunchyroll
       url: http://www.crunchyroll.com/
       img: crunchyroll.png
-      tfa: No
+      bch: No
       twitter: Crunchyroll
       facebook: Crunchyroll
+
+    - name: Elven Tower
+      url: http://www.elventower.com/
+      img: elventower.png
+      twitter: elventower
+      facebook: ElvenTower
+      region: na
+      country: MX
+      city: Le
+      bch: yes
+      btc: no
+      othercrypto: yes
+      doc: https://www.elventower.com/commission-custom-maps
+
+    - name: Eruce - Buy your music
+      url: https://www.eruce.com/
+      img: eruce.png
+      bch: yes
+      btc: no
+      othercrypto: no
+      doc: https://www.eruce.com/bitcoin-cash-supported/
 
     - name: Google Play
       url: https://play.google.com
       img: googleplay.png
-      tfa: Yes
-      sms: Yes
-      phone: Yes
-      hardware: Yes
-      software: Yes
-      doc: https://www.google.com/intl/en-US/landing/2step/features.html
-
-    - name: hitbox
-      url: https://www.hitbox.tv/
-      img: hitbox.png
-      tfa: Yes
-      software: Yes
-      doc: http://help.hitbox.tv/customer/portal/articles/2434122
+      bch: No
+      twitter: GooglePlay
+      facebook: GooglePlay
 
     - name: Hulu
       url: http://www.hulu.com/
+      img: hulu.png
+      bch: No
       twitter: hulu_support
       facebook: hulu
-      img: hulu.png
-      tfa: No
 
     - name: IBM Cloud Video (Ustream)
       url: http://www.ustream.tv/
+      img: ustream.png
+      bch: No
       twitter: ibmcloudvideo
       facebook: ibmcloudvideo
-      img: ustream.png
-      tfa: No
 
     - name: IMDb
       url: https://www.imdb.com
       img: imdb.png
+      bch: No
       twitter: IMDb
       facebook: imdb
-      tfa: No
 
     - name: Last.fm
       url: http://www.last.fm/
+      img: lastfm.png
+      bch: No
       twitter: lastfmsupport
       facebook: lastfm
-      img: lastfm.png
-      tfa: No
 
     - name: Mixer
       url: https://mixer.com/
       img: mixer.png
-      tfa: Yes
-      software: Yes
-      doc: https://watchbeam.zendesk.com/hc/en-us/articles/115000997646-What-is-2FA-two-factor-authentication-and-How-do-I-set-it-up-
+      bch: No
+      twitter: WatchMixer
+      facebook: WatchMixer
+      
+    - name: MusicPlug.com.au
+      url: https://musicplug.com.au
+      img: musicplug.png
+      country: AU
+      bch: Yes
+      btc: Yes
+      othercrypto: Yes
 
     - name: Netflix
       url: https://www.netflix.com/us/
+      img: netflix.png
+      bch: No
       twitter: Netflixhelps
       facebook: netflix
-      img: netflix.png
-      tfa: No
 
     - name: Pandora
       url: https://www.pandora.com
       img: pandora.png
-      tfa: No
+      bch: No
       twitter: pandorasupport
       facebook: pandora
 
     - name: Picarto.TV
       url: https://picarto.tv/
+      img: picartotv.png
+      bch: No
       twitter: PicartoTV
       facebook: picartotv
       email_address: support@picarto.tv
-      img: picartotv.png
-      tfa: No
 
     - name: Plex
       url: https://www.plex.tv
+      img: plex.png
+      bch: No
       twitter: plexapp
       facebook: plexapp
-      img: plex.png
-      tfa: No
 
     - name: Qobuz
       url: http://www.qobuz.com
+      img: qobuz.png
+      bch: No
       twitter: qobuz
       facebook: qobuz
-      img: qobuz.png
-      tfa: No
+      
+    - name: Rock Stuff
+      url: https://www.rockstuff.com.au/
+      img: rockstuff.png
+      facebook: RockStuffCheck12
+      email_address: info@rockstuff.rocks
+      bch: No
+      btc: No
+      othercrypto: No
 
     - name: Roku
       url: https://www.roku.com
       img: roku.png
-      tfa: No
+      bch: No
       twitter: RokuSupport
       facebook: roku
 
+    - name: Satoshi's Vision conference
+      url: https://satoshisvisionconference.com/
+      twitter: satoshis_vision
+      img: satoshisvisionconference.png
+      bch: yes
+      btc: yes
+      othercrypto: no
+      
+    - name: Sheet Music 2 Celebrate
+      url: https://www.sheetmusic2celebrate.com
+      img: sheetmusic2celebrate.png
+      facebook: Sheet-Music-to-Celebrate-2040933102814363
+      email_address: contact@sheetmusic2celebrate.com
+      bch: Yes
+      btc: Yes
+      othercrypto: Yes
+
     - name: Sling TV
       url: https://www.sling.com/
+      img: sling.png
+      bch: No
       twitter: slinganswers
       facebook: sling
-      img: sling.png
-      tfa: No
+
+    - name: smashcast
+      url: https://www.smashcast.tv/
+      img: smashcast.png
+      bch: No
+      twitter: Smashcast_tv
+      facebook: Smashcast
 
     - name: SoundCloud
       url: https://soundcloud.com/
+      img: soundcloud.png
+      bch: No
       twitter: SCsupport
       facebook: SoundCloud
-      img: soundcloud.png
-      tfa: No
 
     - name: Spotify
       url: https://www.spotify.com/
+      img: spotify.png
+      bch: No
       twitter: spotifycares
       facebook: spotify
-      img: spotify.png
-      tfa: No
+
+    - name: The Dollar Vigilante
+      url: https://dollarvigilante.com/
+      twitter: DollarVigilante
+      facebook: DollarVigilante
+      img: dollarvigilante.png
+      bch: yes
+      btc: yes
+      othercrypto: yes
 
     - name: TIDAL
       url: https://tidal.com/
+      img: tidal.png
+      bch: No
       twitter: TIDALHiFi
       facebook: TIDAL
-      img: tidal.png
-      tfa: No
 
     - name: TiVo
       url: https://www.tivo.com/
+      img: tivo.png
+      bch: No
       twitter: TiVo
       facebook: TiVo
-      img: tivo.png
-      tfa: No
 
     - name: Twitch
       url: https://www.twitch.tv/
       img: twitch.png
-      tfa: Yes
-      sms: Yes
-      software: Yes
-      doc: http://blog.twitch.tv/2015/11/two-factor-authentication-now-available-on-your-twitch-account/
+      bch: No
+      btc: No
+      twitter: Twitch
+      facebook: Twitch
 
     - name: Vidme
       url: https://vid.me/
+      img: vidme.png
+      bch: No
       twitter: vidme
       facebook: vidme
-      img: vidme.png
-      tfa: No
 
     - name: Vimeo
       url: https://vimeo.com/
+      img: vimeo.png
+      bch: No
       twitter: vimeo
       facebook: Vimeo
-      img: vimeo.png
-      tfa: No
 
     - name: YouTube
       url: https://www.youtube.com/
       img: youtube.png
-      tfa: Yes
-      sms: Yes
-      software: Yes
-      phone: Yes
-      hardware: Yes
-      doc: https://www.google.com/intl/en-US/landing/2step/features.html
+      bch: No
+      twitter: YouTube
+      facebook: YouTube

@@ -1,0 +1,39 @@
+websites:
+    - name: CryptoCribs
+      url: https://www.cryptocribs.com/
+      img: cryptocribs.png
+      twitter: CryptoCribs
+      facebook: cryptocribs
+      email_address: info@cryptocribs.com
+      bch: yes
+      btc: yes
+      othercrypto: yes
+      
+    - name: SV Breta
+      url: https://breta.weebly.com/
+      img: svbreta.png
+      twitter: RoyWessbecher
+      email_address: BretaNet00@hotmail.com
+      region: na
+      bch: Yes
+      btc: Yes
+      othercrypto: No
+
+    - name: Villa Vvedene
+      url: http://maxkite.wixsite.com/vvedene
+      img: VillaVvedene.png
+      email_address: max_kite@mail.ru
+      region: eu
+      country: RU
+      city: Yaroslavl
+      bch: Yes
+      btc: Yes
+      othercrypto: Yes
+
+    - name: Washington Intern Housing Network
+      url: https://www.thewihn.com
+      facebook: dcinternhousing
+      img: wihn.png
+      bch: yes
+      btc: yes
+      othercrypto: yes

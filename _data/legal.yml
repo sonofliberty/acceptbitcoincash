@@ -2,8 +2,14 @@ websites:
     - name: Docusign
       url: https://www.docusign.com
       img: docusign.png
-      tfa: Yes
-      sms: Yes
-      email: Yes
-      phone: Yes
-      doc: https://support.docusign.com/en/guides/ndse-user-guide-two-step-verification
+      bch: No
+      twitter: DocuSign
+      facebook: DocuSign
+
+    - name: LegalB
+      url: http://www.legalb.co.za/index.htm
+      twitter: felgate
+      img: legalb.png
+      bch: yes
+      btc: yes
+      othercrypto: no

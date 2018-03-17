@@ -3,166 +3,237 @@ websites:
       url: https://payments.amazon.com
       twitter: AmazonPayments
       img: amazon.png
-      tfa: No
+      bch: No
+
+    - name: Bitcoin payment processing api
+      url: https://btcapi.org/
+      img: btcapi.png
+      twitter: BtcApiGateway
+      facebook: BTCApiorg-1960470290837289
+      email_address: admin@btcapi.org
+      country: US
+      bch: Yes
+      btc: Yes
+      othercrypto: No
+      doc: https://btcapi.org/docs
+      
+    - name: Bitpay
+      url: https://bitpay.com
+      img: bitpay.png
+      twitter: bitpay
+      facebook: bitpayofficial
+      bch: Yes
+      btc: Yes
+      othercrypto: No
 
     - name: Braintree
       img: braintree.png
+      twitter: Braintree
       url: https://www.braintreepayments.com/
-      tfa: Yes
-      sms: Yes
-      software: Yes
-      doc: https://articles.braintreepayments.com/reference/security/two-factor-authentication
+      bch: No
+      btc: Yes
 
     - name: Buycraft
       url: http://buycraft.net
       img: buycraft.png
-      tfa: Yes
-      software: Yes
-      sms: Yes
-      exceptions:
-          text: "SMS-capable phone required."
-      doc: http://help.buycraft.net/article/83-two-factor-authentication
+      twitter: Buycraft
+      bch: No
+      btc: Yes
+
+    - name: Cleverbridge
+      url: https://www.cleverbridge.com
+      img: cleverbridge.png
+      twitter: cleverbridge
+      facebook: cleverbridge
+      bch: No
+      btc: No
+      othercrypto: No
+
+    - name: Coinify
+      url: https://coinify.com
+      img: coinify.png
+      bch: Yes
+      btc: Yes
+      othercrypto: Yes
+
+    - name: CoinPayments
+      url: https://www.coinpayments.net/
+      img: coinpayments.png
+      twitter: CoinPaymentsNET
+      facebook: CoinPayments
+      bch: Yes
+      btc: Yes
+      othercrypto: Yes
 
     - name: Dwolla
       url: https://www.dwolla.com
       img: dwolla.png
-      tfa: Yes
-      software: Yes
-      doc: http://help.dwolla.com/customer/portal/articles/2068158-two-factor-authentication-faq?b_id=5438
+      twitter: dwolla
+      facebook: dwolla
+      bch: No
 
     - name: Flattr
       img: flattr.png
       url: https://flattr.com
       twitter: flattr
-      tfa: No
+      bch: No
 
     - name: GoCardless
       img: gocardless.png
       url: https://gocardless.com/
       twitter: GoCardless
-      tfa: No
+      bch: No
+
+    - name: GoCoin
+      url: https://gocoin.com
+      img: gocoin.png
+      twitter: gocoin
+      facebook: gocoiner
+      bch: No
+      btc: Yes
+      othercrypto: Yes
 
     - name: Google Wallet
-      url: http://www.google.se/wallet/
+      url: http://www.google.com/wallet/
+      twitter: googlewallet
       img: googlewallet.png
-      tfa: Yes
-      sms: Yes
-      phone: Yes
-      software: Yes
-      hardware: Yes
-      doc: https://www.google.com/intl/en-US/landing/2step/features.html
+      bch: No
+
+    - name: GoUrl.io
+      url: https://gourl.io/
+      twitter: CryptocoinAPI
+      img: gourl.png
+      bch: Yes
+      btc: Yes
+      othercrypto: Yes
 
     - name: Klarna
       url: https://www.klarna.com
       img: klarna.png
-      tfa: Yes
-      email: Yes
-      software: Yes
-      exceptions:
-         text: "Software 2FA is only available for Swedish citizens with BankID."
+      twitter: Klarna
+      facebook: KlarnaUSA
+      bch: No
 
     - name: NETELLER
       img: neteller.png
-      url: https://www.neteller.com/
-      tfa: Yes
-      software: Yes
-      doc: https://support.neteller.com/ACCOUNT/Two-Factor-Authentication/85238429/What-is-two-step-authentication.htm
+      url: https://www.neteller.com/en/
+      twitter: neteller
+      facebook: neteller
+      bch: No
 
     - name: Payoneer
       url: http://www.payoneer.com/
       twitter: Payoneer
       img: payoneer.png
-      tfa: No
+      bch: No
 
     - name: PayPal
       url: https://www.paypal.com/
       img: paypal.png
-      tfa: Yes
-      sms: Yes
-      software: Yes
-      hardware: Yes
-      exceptions:
-          text: "2FA is only available in a few countries. Contact PayPal on twitter for an up to date list of available countries."
-      doc: https://www.paypal.com/us/cgi-bin?cmd=xpt/Marketing_CommandDriven/securitycenter/PayPalSecurityKey-outside&bn_r=o
+      twitter: paypal
+      bch: No
 
     - name: Paysafecard
       url: https://www.paysafecard.com/
       img: paysafecard.png
-      tfa: Yes
-      software: Yes
-      doc: https://www.paysafecard.com/en-au/lp-products/2-step-login/
+      twitter: Paysafecard
+      bch: No
+      
+    - name: PaySrc
+      url: https://paysrc.com/
+      img: paysrc.png
+      twitter: paysrc_com
+      email_address: support@paysrc.com
+      bch: Yes
+      btc: No
+      othercrypto: No
 
     - name: Privacy
       url: https://privacy.com/
+      twitter: privacyhq
       img: privacy.png
-      tfa: Yes
-      software: Yes
-      doc: https://privacy.com/faq
+      bch: No
+      
+    - name: pyxpub.io
+      url: https://pyxpub.io
+      img: pyxpub.png
+      twitter: pyxpub
+      email_address: info@pyxpub.io
+      bch: Yes
+      btc: Yes
+      othercrypto: Yes
+      doc: https://www.reddit.com/r/btc/comments/82p4x6/pyxpub_fast_and_safe_0conf_transactions_for_any/
 
     - name: Ravelin
       url: https://www.ravelin.com/
+      twitter: Ravelinhq
+      facebook: Ravelinhq
       img: ravelin.png
-      tfa: Yes
-      software: Yes
-      doc: https://ravelin.zendesk.com/hc/en-us/articles/115001071665-Two-Factor-Authentication
+      bch: No
+
+    - name: Rocketr
+      url: https://rocketr.net
+      img: rocketr.png
+      bch: Yes
+      btc: Yes
+      othercrypto: Yes
+      
+    - name: Selly.gg
+      url: https://selly.gg
+      img: sellygg.png
+      twitter: SellyLLC
+      bch: Yes
+      btc: Yes
+      othercrypto: Yes
 
     - name: Skrill
       url: https://skrill.com/
+      twitter: skrill
+      facebook: Skrillpayments
       img: skrill.png
-      tfa: Yes
-      hardware: Yes
-      software: Yes
-      doc: https://www.skrill.com/en/support#/path/ACCOUNT/Two-Factor-Authentication/905761532/Two-Factor-Authentication-2FA.htm
+      bch: No
 
     - name: Square
       url: https://squareup.com
+      twitter: square
+      facebook: square
       img: squareup.png
-      tfa: Yes
-      sms: Yes
-      software: Yes
-      exceptions:
-        text: "SMS only supported in US and Canada"
-      doc: https://squareup.com/help/us/en/article/5593-2-step-verification
+      bch: No
 
     - name: Square Cash
       url: https://cash.me
       img: square-cash.png
-      tfa: No
+      bch: No
       twitter: SquareCash
 
     - name: Stripe
       img: stripe.png
       url: https://www.stripe.com/
-      tfa: Yes
-      sms: Yes
-      software: Yes
-      doc: https://support.stripe.com/questions/how-do-i-enable-two-step-verification
+      twitter: Stripe
+      bch: No
+      btc: No
 
     - name: Vantiv
       url: https://www.vantiv.com/
       twitter: Vantiv
       facebook: Vantiv
       img: vantiv.png
-      tfa: No
+      bch: No
 
     - name: Venmo
       url: https://venmo.com
+      twitter: venmo
       img: venmo.png
-      tfa: Yes
-      sms: Yes
-      doc: https://help.venmo.com/hc/en-us/articles/217532397--Confirm-my-identity-on-sign-in-Why
+      bch: No
 
     - name: Visa Checkout
       url: https://secure.checkout.visa.com/
       img: visa-checkout.png
-      tfa: No
+      bch: No
       twitter: VisaCheckout
 
     - name: Yandex.Money
       url: https://money.yandex.ru
       img: yandexmoney.png
-      tfa: Yes
-      sms: Yes
-      software: Yes
-      hardware: Yes
-      doc: https://money.yandex.ru/doc.xml?id=524852
+      twitter: yandex
+      bch: No

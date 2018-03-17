@@ -1,238 +1,266 @@
 websites:
-  - name: AeroFS
-    url: https://www.aerofs.com/
-    tfa: Yes
-    software: Yes
-    img: aerofs.png
-    doc: https://support.aerofs.com/hc/en-us/articles/202610424-How-Do-I-Set-Up-Two-Factor-Authentication-
+    - name: AeroFS
+      url: https://www.aerofs.com/
+      bch: No
+      btc: No
+      facebook: AeroFS
+      twitter: aerofs
+      othercrypto: No
+      img: aerofs.png
 
-  - name: Apple iCloud
-    url: https://www.icloud.com
-    img: icloud.png
-    tfa: Yes
-    sms: Yes
-    software: Yes
-    exceptions:
-        text: "See https://support.apple.com/HT202656 for a list of supported SMS carriers."
-    doc: https://support.apple.com/HT204152
+    - name: Apple iCloud
+      url: https://www.icloud.com
+      img: icloud.png
+      twitter: applesupport
+      facebook: apple
+      bch: No
+      btc: No
+      othercrypto: No
 
-  - name: Backblaze
-    url: https://www.backblaze.com
-    img: backblaze.png
-    tfa: Yes
-    sms: Yes
-    software: Yes
-    doc: https://help.backblaze.com/hc/en-us/articles/217666588-Two-Factor-Verification
+    - name: Backblaze
+      url: https://www.backblaze.com
+      img: backblaze.png
+      facebook: backblaze
+      twitter: backblaze
+      bch: No
+      btc: No
+      othercrypto: No
 
-  - name: Box
-    url: https://www.box.com/
-    img: box.png
-    tfa: Yes
-    sms: Yes
-    doc: https://support.box.com/hc/en-us/articles/200526658-Can-I-enable-2-step-verification-for-my-account-
+    - name: BackupBox
+      url: https://www.backupbox.com
+      img: backupbox.png
+      facebook: BackupBox-129373244263945
+      twitter: BackupBox_app
+      bch: no
+      btc: yes
+      othercrypto: no
 
-  - name: CloudApp
-    url: https://www.getcloudapp.com/
-    twitter: cloudapp
-    img: cloudapp.png
-    tfa: No
-    facebook: getcloudapp
+    - name: Box
+      url: https://www.box.com/
+      img: box.png
+      facebook: box
+      twitter: BoxHQ
+      bch: No
+      btc: No
+      othercrypto: No
 
-  - name: CrashPlan
-    url: https://www.crashplan.com
-    twitter: crashplan
-    img: crashplan.png
-    tfa: No
-    facebook: CrashPlan
+    - name: Boxcryptor
+      url: https://www.boxcryptor.com
+      img: boxcryptor.png
+      bch: No
+      twitter: boxcryptor
+      facebook: boxcryptor
+      email_address: info@boxcryptor.com
 
-  - name: Dropbox
-    url: https://www.dropbox.com
-    img: dropbox.png
-    tfa: Yes
-    sms: Yes
-    software: Yes
-    hardware: Yes
-    doc: https://www.dropbox.com/en/help/363
+    - name: CloudApp
+      url: https://www.getcloudapp.com/
+      twitter: cloudapp
+      img: cloudapp.png
+      bch: No
+      btc: No
+      othercrypto: No
+      facebook: getcloudapp
 
-  - name: Evernote
-    url: https://evernote.com
-    img: evernote.png
-    tfa: Yes
-    sms: Yes
-    software: Yes
-    doc: https://blog.evernote.com/blog/2013/10/04/two-step-verification-available-to-all-users/
+    - name: CrashPlan
+      url: https://www.crashplan.com
+      twitter: crashplan
+      img: crashplan.png
+      facebook: CrashPlan
+      bch: No
+      btc: No
+      othercrypto: No
 
-  - name: FileThis
-    url: https://filethis.com
-    twitter: FileThisCompany
-    img: filethis.png
-    tfa: No
-    facebook: FileThis
+    - name: Dropbox
+      url: https://www.dropbox.com
+      img: dropbox.png
+      twitter: Dropbox
+      facebook: Dropbox
+      bch: No
+      btc: No
+      othercrypto: No
 
-  - name: Frostbox
-    url: http://frostbox.com
-    img: frostbox.png
-    tfa: Yes
-    software: Yes
-    doc: https://app.frostbox.com/main.php?action=2fa
+    - name: Evernote
+      url: https://evernote.com
+      img: evernote.png
+      facebook: evernote
+      twitter: evernote
+      bch: No
+      btc: No
+      othercrypto: No
 
-  - name: Google Drive
-    url: https://drive.google.com
-    img: drive.png
-    tfa: Yes
-    sms: Yes
-    phone: Yes
-    software: Yes
-    hardware: Yes
-    doc: https://www.google.com/intl/en-US/landing/2step/features.html
+    - name: FileThis
+      url: https://filethis.com
+      twitter: FileThisCompany
+      img: filethis.png
+      facebook: FileThis
+      bch: No
+      btc: No
+      othercrypto: No
 
-  - name: hubiC
-    url: https://hubic.com/
-    twitter: hubic
-    img: hubic.png
-    tfa: No
+    - name: Google Drive
+      url: https://drive.google.com
+      twitter: googledrive
+      img: drive.png
+      bch: No
+      btc: No
+      othercrypto: No
 
-  - name: IDrive
-    url: https://www.idrive.com
-    twitter: IDriveBackup
-    img: idrive.png
-    tfa: No
-    facebook: IDriveBackup
+    - name: hubiC
+      url: https://hubic.com/
+      twitter: hubic
+      img: hubic.png
+      bch: No
+      btc: No
+      othercrypto: No
 
-  - name: Jottacloud
-    url: https://www.jottacloud.com
-    twitter: jottacloud
-    email_address: support@jottacloud.com
-    facebook: Jottacloud
-    img: jotta.png
-    tfa: No
+    - name: IDrive
+      url: https://www.idrive.com
+      twitter: IDriveBackup
+      facebook: IDriveBackup
+      img: idrive.png
+      bch: No
+      btc: No
+      othercrypto: No
 
-  - name: JustCloud
-    url: https://www.justcloud.com
-    twitter: justcloudcom
-    img: justcloud.png
-    tfa: No
-    facebook: JustCloudStorage
+    - name: Jottacloud
+      url: https://www.jottacloud.com
+      twitter: jottacloud
+      email_address: support@jottacloud.com
+      facebook: Jottacloud
+      img: jotta.png
+      bch: No
+      btc: No
+      othercrypto: No
 
-  - name: Koofr
-    url: https://koofr.eu
-    tfa: Yes
-    software: Yes
-    img: koofr.png
-    doc: https://koofr.eu/help/other/how-do-i-enable-2-step-verification/
+    - name: JustCloud
+      url: https://www.justcloud.com
+      twitter: justcloudcom
+      img: justcloud.png
+      facebook: JustCloudStorage
+      bch: No
+      btc: No
+      othercrypto: No
 
-  - name: Mega
-    url: https://mega.nz/
-    twitter: MEGAprivacy
-    img: mega.png
-    tfa: No
+    - name: Koofr
+      url: https://koofr.eu
+      img: koofr.png
+      twitter: koofrnet
+      facebook: koofr
+      bch: No
+      btc: No
+      othercrypto: No
 
-  - name: Nimbox
-    url: https://www.nimbox.co.uk/
-    img: nimbox.png
-    tfa: Yes
-    email: Yes
-    sms: Yes
-    software: Yes
-    doc: http://support.nimbox.co.uk/knowledge_base/topics/two-step-slash-two-factor-authentication
+    - name: Mega
+      url: https://mega.nz/
+      twitter: MEGAprivacy
+      img: mega.png
+      bch: No
+      btc: Yes
+      othercrypto: No
 
-  - name: OneDrive
-    url: https://onedrive.live.com
-    img: onedrive.png
-    tfa: Yes
-    sms: Yes
-    software: Yes
-    doc: https://support.microsoft.com/en-us/help/12408/microsoft-account-about-two-step-verification
+    - name: Nimbox
+      url: https://www.nimbox.co.uk/
+      img: nimbox.png
+      twitter: nimbox
+      bch: No
+      btc: No
+      othercrypto: No
 
-  - name: Pogoplug
-    url: https://pogoplug.com/
-    twitter: pogoplug
-    img: pogoplug.png
-    tfa: No
+    - name: OneDrive
+      url: https://onedrive.live.com
+      img: onedrive.png
+      twitter: onedrive
+      bch: Yes
+      btc: Yes
+      othercrypto: No
 
-  - name: QNAP
-    url: https://www.qnap.com
-    img: qnap.png
-    tfa: Yes
-    email: Yes
-    software: Yes
-    doc: https://www.qnap.com/i/useng/tutorial/con_show.php?op=showone&cid=151
+    - name: Pogoplug
+      url: https://pogoplug.com/
+      twitter: pogoplug
+      img: pogoplug.png
+      bch: No
+      btc: No
+      othercrypto: No
 
-  - name: SmartBox
-    url: https://www.panterranetworks.com/smartbox/smartbox_overview.php
-    img: smartbox.png
-    tfa: Yes
-    email: Yes
-    software: Yes
-    doc: https://www.panterranetworks.com/smartbox/sb-features/sbf-security.php
+    - name: QNAP
+      url: https://www.qnap.com
+      img: qnap.png
+      twitter: qnap_nas
+      bch: No
+      btc: No
+      othercrypto: No
 
-  - name: SpiderOak
-    url: https://spideroak.com
-    twitter: spideroak
-    img: spideroak.png
-    tfa: No
-    facebook: SpiderOak
+    - name: SmartBox
+      url: https://www.panterranetworks.com/products/smartbox.php
+      twitter: panterranetwork
+      img: smartbox.png
+      bch: No
+      btc: No
+      othercrypto: No
 
-  - name: SugarSync
-    twitter: SugarSync
-    url: https://www.sugarsync.com/
-    img: sugarsync.png
-    tfa: No
-    facebook: SugarSync
+    - name: SpiderOak
+      url: https://spideroak.com
+      twitter: spideroak
+      img: spideroak.png
+      facebook: SpiderOak
+      bch: No
+      btc: No
+      othercrypto: No
 
-  - name: Sync
-    url: https://www.sync.com
-    img: sync.png
-    software: Yes
-    email: Yes
-    tfa: Yes
-    doc: https://www.sync.com/help/how-do-i-setup-two-factor-authentication/
+    - name: SugarSync
+      twitter: SugarSync
+      url: https://www.sugarsync.com/
+      img: sugarsync.png
+      facebook: SugarSync
+      bch: No
+      btc: No
+      othercrypto: No
 
-  - name: Synology
-    url: https://www.synology.com/
-    img: synology.png
-    tfa: Yes
-    software: Yes
-    email: Yes
-    doc: https://originwww.synology.com/en-us/knowledgebase/tutorials/615#t5
+    - name: Sync
+      url: https://www.sync.com
+      img: sync.png
+      twitter: sync
+      facebook: syncus
+      bch: Yes
+      btc: Yes
+      othercrypto: No
 
-  - name: ThisData
-    url: https://thisdata.com
-    img: thisdata.png
-    tfa: Yes
-    sms: Yes
-    software: Yes
-    doc: https://thisdata.com/blog/how-to-enable-two-factor-authentication/
+    - name: Synology
+      url: https://www.synology.com/
+      twitter: synology
+      img: synology.png
+      bch: No
+      btc: No
+      othercrypto: No
 
-  - name: Tresorit
-    url: https://tresorit.com/
-    img: tresorit.png
-    tfa: Yes
-    sms: Yes
-    phone: Yes
-    software: Yes
-    email: Yes
-    doc: https://support.tresorit.com/entries/104192996-How-to-set-up-two-step-verification
+    - name: ThisData
+      url: https://thisdata.com
+      img: thisdata.png
+      twitter: thisdatahq
+      bch: No
+      btc: No
+      othercrypto: No
 
-  - name: XXL Cloud
-    url: https://xxlcloud.com
-    twitter: xxlcloud
-    img: xxlcloud.png
-    tfa: No
-    facebook: xxlcloud
+    - name: Tresorit
+      url: https://tresorit.com/
+      twitter: tresorit
+      img: tresorit.png
+      bch: No
+      btc: No
+      othercrypto: No
 
-  - name: Yandex.Disk
-    url: https://disk.yandex.com
-    img: yandexdisk.png
-    tfa: Yes
-    software: Yes
-    exceptions:
-        text: "SMS-capable phone required for initial setup."
-    doc: https://yandex.com/support/passport/authorization/twofa.html
+    - name: Yandex.Disk
+      url: https://disk.yandex.com
+      img: yandexdisk.png
+      twitter: yandexdisk
+      bch: No
+      btc: No
+      othercrypto: No
 
-  - name: Zetta.net
-    url: http://www.zetta.net/
-    img: zetta.png
-    tfa: Yes
-    software: Yes
-    doc: http://www.zetta.net/about/blog/how-set-zetta-two-factor-authentication/
+    - name: Zetta.net
+      url: http://www.zetta.net/
+      img: zetta.png
+      twitter: zetta_corp
+      bch: No
+      btc: No
+      othercrypto: No

@@ -1,11 +1,11 @@
 permalink: pretty
 markdown: kramdown
 
-title: The Accept Bitcoin Cash Project
-author: topolino
+title: The Accept Bitcoin Cash Initiative
+author: n9jd34x04l151ho4 + topolino + kenman345
 description:
     Community-curated list of sites/merchants that accept Bitcoin Cash.
-url: http://acceptbitcoin.cash
+url: https://usebitcoin.cash
 repo: https://github.com/acceptbitcoincash/acceptbitcoincash
 img: img/logo.png
 
@@ -19,5 +19,7 @@ exclude:
     - Rakefile
     - verify.rb
     - vendor
+    - kube
+    - nginx.conf
 
 theme: jekyll-theme-hacker

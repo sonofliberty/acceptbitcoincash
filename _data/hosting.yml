@@ -2,22 +2,49 @@ websites:
     - name: 34SP.com
       url: https://www.34SP.com
       img: 34sp.png
-      tfa: Yes
-      software: yes
-      doc: https://www.34sp.com/kb/142/how-to-enable-two-factor-authentication-on-your-account
+      facebook: 34SP-217495734942668
+      twitter: 34sp
+      email_address: support@34sp.com
+      bch: No
+      doc:
+
+    - name: ABACO Hosting
+      url: https://abacohosting.com/
+      region: NA
+      country: US
+      state: TX
+      city: Austin
+      twitter: abacohosting
+      facebook: abacohosting
+      img: abacohosting.png
+      bch: Yes
+      btc: Yes
+      othercrypto: Yes
+      doc: https://abacohosting.com/we-are-now-accepting-bitcoincash-for-all-domain-registrations-hosting.html
 
     - name: ARP Networks
       url: https://arpnetworks.com/
       img: arpnetworks.png
-      tfa: No
+      bch: No
       twitter: arpnetworks
+      facebook: arpnetworks
+
+    - name: BaCloud
+      url: https://www.bacloud.com
+      twitter: bacloud
+      facebook: Bacloudcom
+      img: bacloud.png
+      bch: Yes
+      btc: Yes
+      othercrypto: Yes
+      doc: https://www.bacloud.com/en/payment-methods
 
     - name: Binary Lane
       url: https://www.binarylane.com.au/
       img: binarylane.png
-      tfa: Yes
-      software: yes
-      doc: https://www.binarylane.com.au/support/solutions/articles/1000199372-two-factor-authentication
+      bch: No
+      twitter: BinaryLane
+      facebook: BinaryLane
 
     - name: Binero
       url: https://www.binero.se
@@ -25,82 +52,117 @@ websites:
       twitter: Binero
       facebook: binero
       email_address: support@binero.se
-      tfa: No
+      bch: No
       lang: sv
 
     - name: Bluehost
       url: https://www.bluehost.com/
       img: bluehost.png
-      tfa: Yes
-      software: Yes
-      email: Yes
-      doc: https://my.bluehost.com/cgi/help/two-factor-authentication
+      bch: No
+      twitter: bluehost
+      facebook: bluehost
 
     - name: CDNsun
       url: https://cdnsun.com
       img: cdnsun.png
-      tfa: Yes
-      software: Yes
-      doc: https://cdnsun.com/knowledgebase/billing/two-factor-authentication
+      bch: No
+      email_address: info@cdnsun.com
+      twitter: CDNsuncom
+      facebook: CDNsun
 
     - name: ChunkHost
       url: https://chunkhost.com
       img: chunkhost.png
-      tfa: Yes
-      software: Yes
+      bch: No
+      btc: Yes
+      othercrypto: No
+      twitter: chunkhost
+
+    - name: Cloud9
+      url: https://cloud9hosting.com/
+      img: cloud9hosting.png
+      twitter: cloud9hosting
+      facebook: cloud9hosting
+      bch: No
+      btc: Yes
+      othercrypto: No
 
     - name: CloudAtCost
       url: http://cloudatcost.com
       img: cloudatcost.png
       twitter: cloudatcost
-      tfa: No
+      bch: No
+      btc: Yes
+      othercrypto: Yes
 
     - name: Cloudways
       url: https://www.cloudways.com/
       img: cloudways.png
-      tfa: Yes
-      software: Yes
-      doc: https://support.cloudways.com/enabling-two-factor-authentication-for-your-cloudways-account/
+      bch: No
+      btc: No
+      othercrypto: No
+      facebook: cloudways
+      twitter: cloudways
 
     - name: cyon
       url: https://www.cyon.ch
       img: cyon.png
-      tfa: Yes
-      software: Yes
-      doc: https://www.cyon.ch/support/a/225/wie-aktiviere-ich-die-zwei-schritt-verifizierung
-
-    - name: dediserve
-      url: https://dediserve.com
-      img: dediserve.png
-      tfa: Yes
-      software: Yes
-      doc: http://news.dediserve.com/2016/12/01/2-factor-authentication-now-launched/
+      bch: No
+      twitter: cyon
+      facebook: cyonhosting
 
     - name: Dreamhost
       url: https://dreamhost.com
       img: dreamhost.png
-      tfa: Yes
-      software: Yes
-      doc: http://wiki.dreamhost.com/Enabling_Multifactor_Authentication
+      bch: No
+      twitter: dreamhost
+      facebook: dreamhost
+      doc: https://help.dreamhost.com/hc/en-us/articles/215202687-Payment-methods
 
     - name: Easy
       url: https://easy.gr/
       img: easy.png
-      tfa: Yes
-      software: Yes
-      doc: https://easy.gr/el/faq
+      twitter: easygr
+      facebook: easygr
+      bch: No
+      btc: Yes
+      lang: el
 
     - name: Fastly
       url: https://www.fastly.com
+      twitter: fastly
+      facebook: fastlycdn
       img: fastly.png
-      tfa: Yes
-      software: Yes
-      doc: https://docs.fastly.com/guides/account-management-and-security/enabling-and-disabling-two-factor-authentication
+      bch: No
+
+    - name: Feral Hosting
+      url: https://www.feralhosting.com
+      img: feralhosting.png
+      twitter: feralstatus
+      bch: No
+      btc: Yes
+
+    - name: FlokiNET
+      url: https://flokinet.is
+      img: flokinet.png
+      email_address: info@flokinet.is
+      bch: Yes
+      btc: Yes
+      othercrypto: Yes
+      doc: https://flokinet.is/en/index.php
+
+    - name: Fork Networking
+      url: http://www.forked.net/
+      img: forknetworking.png
+      twitter: ForkNetworking
+      bch: Yes
+      btc: No
+      othercrypto: Yes
 
     - name: FS Data
       url: https://fsdata.se/
       img: fsdata.png
-      tfa: No
+      bch: No
       twitter: fsdata
       facebook: fsdata
       email_address: info@fsdata.se
@@ -108,51 +170,51 @@ websites:
 
     - name: Glesys
       url: http://glesys.com/
+      twitter: glesysab
+      facebook: glesys
       img: glesys.png
-      tfa: Yes
-      software: Yes
-      hardware: Yes
+      bch: No
 
     - name: Globat
       url: https://www.globat.com/
       img: globat.png
-      tfa: No
+      bch: No
       twitter: globat
 
     - name: Hetzner Online
       url: https://www.hetzner.de/
+      facebook: hetzner.de
       img: hetzner.png
-      tfa: Yes
-      software: Yes
-      hardware: Yes
+      bch: No
 
     - name: HostHatch
       url: https://hosthatch.com/
       img: hosthatch.png
-      tfa: No
+      bch: No
       twitter: HostHatch
-      facebook: hosthatch
+      facebook: HostHatch
 
     - name: ICUK
-      url: https://icuk.net
+      url: https://www.icuk.net/
       img: icuk.png
-      tfa: Yes
-      software: Yes
-      doc: https://www.icuk.net/reseller/security.asp
+      bch: No
+      twitter: icuknet
+      facebook: icuknet
 
     - name: Infomaniak
       url: https://www.infomaniak.com/
       img: infomaniak.png
-      tfa: Yes
-      software: Yes
-      doc: https://www.infomaniak.ch/en/support/faq/1940
+      facebook: infomaniaknetwork
+      twitter: infomaniak
+      bch: No
 
     - name: INIZ
       url: https://iniz.com
       img: iniz.png
-      tfa: Yes
-      software: Yes
-      doc: https://my.iniz.com/knowledgebase/24/Securing-Your-Account-2FA.html
+      bch: No
+      btc: Yes
+      othercrypto: No
+      email_address: sales@iniz.com
 
     - name: Inleed
       url: https://www.inleed.se
@@ -160,105 +222,168 @@ websites:
       twitter: Inleed
       facebook: Inleed
       email_address: support@inleed.se
-      tfa: No
+      bch: No
       lang: sv
 
     - name: InMotion Hosting
       url: https://www.inmotionhosting.com/
       twitter: inmotionhosting
+      facebook: inmotionhosting
       img: inmotion.png
-      tfa: No
+      bch: No
+
+    - name: Internoc24 LLC
+      url: https://www.internoc24.host/
+      img: internoc24.png
+      twitter: internoc24
+      facebook: internoc24
+      btc: Yes
+      bch: Yes
+      othercrypto: Yes
 
     - name: IO Zoom
       url: https://www.iozoom.com
       img: iozoom.png
-      tfa: Yes
-      software: Yes
-      doc: https://www.iozoom.com/client/announcements.php?id=6
+      bch: No
+      facebook: iozoom
+      twitter: iozoom
 
     - name: iPage
       url: https://www.ipage.com/ipage/index.html
       twitter: iPage
+      facebook: iPage
       img: ipage.png
-      tfa: No
+      bch: No
+
+    - name: IT Itch
+      url: https://ititch.com/
+      img: ititch.png
+      bch: No
+      btc: Yes
+      twitter: it_itch
+
+    - name: Kinsta
+      url: https://kinsta.com
+      img: kinsta.png
+      twitter: kinsta
+      facebook: kinstahosting
+      bch: No
 
     - name: LCN.com
       url: https://www.lcn.com
       twitter: lcndotcom
       facebook: lcndotcom
       img: lcn.png
-      tfa: No
+      bch: No
+      
+    - name: Liberty VPS
+      url: https://libertyvps.net/
+      img: libertyvps.png
+      twitter: libertyvps
+      bch: Yes
+      btc: Yes
+      othercrypto: No
 
     - name: Liquid Web
       url: https://www.liquidweb.com
       img: liquidweb.png
-      tfa: Yes
-      software: Yes
-      doc: https://www.liquidweb.com/kb/how-to-enable-two-factor-authentication-2fa/
+      bch: No
+      twitter: liquidweb
+      facebook: liquidwebinc
 
     - name: Mammoth Networks
       url: https://www.mammoth.net.au/
       img: mammothnetworks.png
-      tfa: Yes
-      software: Yes
-      doc: https://www.mammoth.net.au/news/2012/10/22/two-factor-authentication-now-available
+      twitter: mammothcloud
+      facebook: mammothcloud
+      bch: No
 
     - name: MaxCDN
       url: https://www.maxcdn.com
       img: maxcdn.png
-      tfa: Yes
-      software: Yes
-      doc: https://www.maxcdn.com/one/tutorial/enable-two-step-verification/
+      bch: No
+      twitter: MaxCDN
+      facebook: MaxCDN
 
     - name: Media Temple
       url: https://mediatemple.net/
       twitter: mediatemple
+      facebook: mediatemple
       img: mediatemple.png
-      tfa: No
+      bch: No
 
     - name: Miss Hosting
       url: https://misshosting.com/
       twitter: misshostingcom
       facebook: misshostingcom
       img: misshosting.png
-      tfa: No
+      bch: No
       lang: sv
 
     - name: Mittwald
       url: https://www.mittwald.de/
       twitter: mittwald
+      facebook: mittwald
       img: mittwald.png
-      tfa: No
+      bch: No
       lang: de
 
     - name: NearlyFreeSpeech.NET
       url: https://www.nearlyfreespeech.net/
       img: nfsn.png
-      tfa: Yes
-      sms: Yes
-      software: Yes
-      doc: https://blog.nearlyfreespeech.net/2014/02/28/price-cuts-more-security-and-recovery-options/
+      bch: No
+      btc: Yes
+      doc: https://www.nearlyfreespeech.net/about/faq#Payment
 
     - name: Netcup
       url: https://netcup.eu/
       img: netcup.png
-      tfa: Yes
-      software: Yes
-      doc: http://www.netcup-wiki.de/wiki/Stammdaten_CCP#Zwei-Faktor-Authentifizierung_.282FA.29
+      bch: No
+      twitter: netcup
 
+    - name: Nexwave
+      region: na
+      country: ca
+      city: Montreal
+      url: https://www.nexwave.ca/
+      twitter: Nexwave
+      facebook: nexwave.ca
+      img: nexwave.png
+      bch: yes
+      btc: yes
+      othercrypto: yes
+      doc: https://twitter.com/Nexwave/status/948650799281917957
+      
+    - name: NForce
+      url: https://nforce.com
+      img: NForce.png
+      facebook: NFOrceInternetServices
+      bch: Yes
+      btc: Yes
+      othercrypto: No
+      doc: https://nforce.com/news/item/67/Bitcoin-Cash-payments
+
+    - name: NiceVPS.net
+      url: https://nicevps.net
+      img: nicevps.png
+      bch: yes
+      btc: yes
+      othercrypto: yes
+      doc: https://nicevps.net/index/payments
+      
     - name: Nitrado
       url: https://server.nitrado.net/
       img: nitrado.png
-      tfa: Yes
-      software: Yes
-      hardware: Yes
-      doc: https://server.nitrado.net/deu/news2/view/nitrado-bietet-zweifaktorauthentifizierung/?f=index/mode:0/page:2
+      bch: No
+      twitter: nitrado_en
 
     - name: Noez
       url: https://noez.de/
+      twitter: noezde
+      email_address: support@noez.de
       img: noez.png
-      tfa: Yes
-      software: Yes
+      bch: No
+      lang: de
 
     - name: Oderland
       url: https://www.oderland.se/
@@ -266,173 +391,234 @@ websites:
       facebook: oderland
       email_address: support@oderland.se
       img: oderland.png
-      tfa: No
+      bch: No
       lang: sv
 
     - name: One.com
       url: https://www.one.com/
       twitter: onecom
+      facebook: onecom
       img: onecom.png
-      tfa: No
+      bch: No
 
     - name: Online
       url: https://www.online.net/
+      twitter: online_fr
       img: online.png
-      tfa: Yes
-      sms: Yes
-      software: Yes
-      exceptions:
-          text: "SMS available only to customers in France."
+      bch: No
 
     - name: OVH
       url: https://www.ovh.com/
+      twitter: ovh
       img: ovh.png
-      tfa: Yes
-      sms: Yes
-      software: Yes
+      bch: No
+      doc: https://www.ovh.com/support/termsofservice/payment.xml
 
     - name: PlanetHoster
       url: https://planethoster.net
+      twitter: planethoster
+      facebook: planethoster
       img: PlanetHoster.png
-      tfa: Yes
-      software: Yes
-      doc: http://blog.planethoster.net/securite-espace-client-planethoster/
+      bch: No
+      lang: fr
+
+    - name: Puroxy
+      url: https://puroxy.org/
+      twitter: puroxyii
+      facebook: PuroxyII
+      img: puroxy.png
+      bch: yes
+      btc: yes
+      othercrypto: yes
+
+    - name: QHoster
+      url: https://www.qhoster.com
+      img: qhoster.png
+      bch: Yes
+      btc: Yes
+      twitter: qhostercom
+      facebook: qhoster
+      email_address: info@qhoster.com
+      doc: https://www.qhoster.com/payment-methods.html
 
     - name: Rackspace
       url: https://www.rackspace.com/
+      twitter: rackspace
       img: rackspace.png
-      tfa: Yes
-      sms: Yes
-      doc: http://www.rackspace.com/knowledge_center/article/myrackspace-two-factor-authentication
+      bch: No
 
     - name: RamNode
       url: http://www.ramnode.com
+      twitter: ramnode
+      facebook: ramnode
       img: ramnode.png
-      tfa: Yes
-      software: Yes
-      doc: https://clientarea.ramnode.com/knowledgebase.php?action=displayarticle&id=70
-
-    - name: Scaleway
-      url: https://www.scaleway.com/
-      twitter: scaleway
-      facebook: scaleway
-      img: scaleway.png
-      tfa: No
+      bch: No
+      btc: Yes
 
     - name: Site5
       url: https://www.site5.com/
       twitter: site5
+      facebook: site5
       img: site5.png
-      tfa: No
+      bch: No
 
-    - name: Softlayer
-      url: https://www.softlayer.com
-      img: softlayer.png
-      tfa: Yes
-      software: Yes
-      doc: https://knowledgelayer.softlayer.com/procedure/configure-portal-account-one-time-password-access-manage
+    - name: Snel
+      url: https://snel.com
+      img: snel.png
+      twitter: snelcom
+      facebook: snelcom
+      bch: Yes
+      btc: Yes
+      othercrypto: Yes
+      doc: https://www.snel.com/payment-methods/
 
-    - name: SpeedIT Solutions
-      url: https://www.speedit.org/
-      img: speedit.png
-      tfa: Yes
-      software: Yes
+    - name: SporeStack
+      url: https://sporestack.com
+      img: sporestack.png
+      bch: Yes
+      doc: https://sporestack.com/news#2017-12-12
 
-    - name: Squarespace
-      url: https://squarespace.com/
-      twitter: squarespace
-      img: squarespace.png
-      tfa: No
+    - name: THC Servers
+      url: https://www.thcservers.com/
+      twitter: THCServers
+      facebook: thcservers
+      img: thcservers.png
+      bch: Yes
+      btc: Yes
+      othercrypto: Yes
+      doc: https://www.thcservers.com/bitcoin-hosting
 
     - name: Time4VPS
       url: https://www.time4vps.eu/
+      twitter: time4vps
+      facebook: time4vps
       img: time4vps.png
-      tfa: Yes
-      software: Yes
-      doc: https://billing.time4vps.eu/knowledgebase/article/100/2-factor-authentication/
+      bch: Yes
+      btc: Yes
 
     - name: TransIP
-      url: https://www.transip.nl/
+      url: https://www.transip.eu/
+      twitter: transip_global
+      facebook: transip.global
       img: transip.png
-      tfa: Yes
-      sms: Yes
-      software: Yes
-      hardware: Yes
-      doc: https://www.transip.nl/vragen/574-hoe-stel-two-factor-authentication/
+      bch: No
 
     - name: UKFast
       url: https://www.ukfast.co.uk/
+      twitter: ukfast
       img: ukfast.png
-      tfa: Yes
-      sms: Yes
-      software: Yes
-      hardware: Yes
+      bch: No
 
-    - name: Ukraine
-      url: https://www.ukraine.com.ua/
-      img: ukraine.png
-      tfa: Yes
-      sms: Yes
-      phone: Yes
-      software: Yes
-      hardware: Yes
-      doc: https://www.ukraine.com.ua/faq/rekomendatsii-po-zashchite-ot-vzloma-uchetnoj-zapisi.html
+    - name: Ultraseedbox
+      url: https://www.ultraseedbox.com/
+      twitter: ultraseedbox
+      facebook: ultrasbox
+      img: ultraseedbox.png
+      bch: yes
+      btc: yes
+      othercrypto: yes
+      doc: https://kb.ultraseedbox.com/display/DOC/Payments
 
     - name: UpCloud
       url: https://www.upcloud.com
+      email_address: sales@upcloud.com
+      twitter: upcloud
       img: upcloud.png
-      tfa: Yes
-      software: Yes
-      exceptions:
-          text: "SMS is required for password recovery."
-      doc: https://www.upcloud.com/support/two-factor-authentication/
+      bch: No
+      
+    - name: Usenet Bucket
+      url: https://www.usenetbucket.com/en/
+      img: UsenetBucket.png
+      twitter: UsenetBucket
+      region: eu
+      bch: Yes
+      btc: Yes
+      othercrypto: No
 
     - name: Versio
       url: https://www.versio.nl
+      twitter: versio
       img: versio.png
-      tfa: Yes
-      software: Yes
-      doc: https://www.versio.nl/nieuws/twofactor-authenticatie-nu-beschikbaar-voor-uw-klantenaccount-205
+      bch: No
+
+    - name: VPS City
+      url: https://vps-city.com
+      img: vpscity.png
+      twitter: vps_city
+      email_address: office@vps-city.com
+      country: SE
+      bch: Yes
+      btc: Yes
+      othercrypto: Yes
+      doc: https://vps-city.com/
 
     - name: VPS Server
       url: https://www.vpsserver.com/
+      twitter: vpsservercom
       img: vpsserver.png
-      tfa: Yes
-      software: Yes
-      doc: https://github.com/2factorauth/twofactorauth/pull/2311#issuecomment-273424695
+      bch: No
+      btc: Yes
 
     - name: Vultr
       url: https://www.vultr.com/
+      twitter: vultr
+      facebook: vultr
       img: vultr.png
-      tfa: Yes
-      software: Yes
-      hardware: Yes
-      doc: https://www.vultr.com/faq/#authy
+      bch: Yes
+      btc: Yes
+      othercrypto: No
+      exceptions: 
+        text: "Crypto-Payments only for existing customers/non-new accounts"
 
     - name: WebFaction
       url: https://www.webfaction.com
+      twitter: webfaction
+      facebook: webfaction
       img: webfaction.png
-      tfa: Yes
-      software: Yes
-      doc: https://docs.webfaction.com/user-guide/control_panel.html#two-step-login
+      bch: No
 
     - name: Wedos
       url: https://hosting.wedos.com
+      twitter: wedos_cz
       img: wedos.png
-      tfa: Yes
-      software: Yes
-      doc: https://kb.wedos.com/cs/zakaznik/otp.html
+      bch: No
 
     - name: Weebly
       url: https://www.weebly.com
-      img: weebly.png
-      tfa: No
       twitter: weebly
       facebook: weebly
+      img: weebly.png
+      bch: No
+
+    - name: Wishosting
+      url: https://www.wishosting.com/
+      img: wishosting.png
+      twitter: wishosting
+      bch: Yes
+      btc: Yes
+      othercrypto: Yes
 
     - name: WP Engine
       url: https://wpengine.com/
+      twitter: wpengine
+      facebook: wpengine
       img: wpengine.png
-      tfa: Yes
-      software: Yes
-      doc: https://wpengine.com/support/2-factor-authentication/
+      bch: No
+
+    - name: Yourserver.se
+      url: https://www.yourserver.se/
+      img: yourserver.png
+      twitter: yourserverse
+      facebook: yourserverse
+      email_address: tanja@yourserver.se
+      bch: Yes
+      btc: Yes
+      othercrypto: Yes
+      
+    - name: Zion VPS
+      url: https://zionvps.com/
+      img: zionvpsllp.png
+      facebook: zionvpsllp
+      bch: Yes
+      btc: Yes
+      othercrypto: Yes

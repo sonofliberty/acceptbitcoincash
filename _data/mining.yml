@@ -1,0 +1,72 @@
+websites:
+
+    - name: Antpool
+      url: https://antpool.com/
+      img: antpool.png
+      bch: Yes
+      btc: Yes
+      othercrypto: Yes
+
+    - name: BitClub Network
+      url: https://bitclubpool.com/
+      img: bitclub.png
+      bch: Yes
+      btc: Yes
+      othercrypto: Yes
+
+    - name: Bitcoin.com
+      url: https://pool.bitcoin.com/
+      img: bitcoincom.png
+      bch: Yes
+      btc: Yes
+      othercrypto: No
+
+    - name: BTC.com
+      url: https://pool.btc.com
+      img: btccom.png
+      bch: Yes
+      btc: Yes
+      othercrypto: No
+
+    - name: Gigampz
+      url: http://www.gigampz.com
+      twitter: gigampz
+      img: gigampz.png
+      bch: yes
+      btc: no
+      othercrypto: no
+      
+    - name: GPU Mining Bios
+      url: https://mining-bios.eu/
+      img: miningbios.png
+      facebook: indeedminers
+      region: eu
+      bch: yes
+      btc: yes
+      othercrypto: yes
+      doc: https://mining-bios.eu/2018/01/21/more-native-crypto/
+
+    - name: Suprnova
+      url: https://www.suprnova.cc/
+      img: suprnova.png
+      bch: Yes
+      btc: Yes
+      othercrypto: Yes
+      
+    - name: Taimine
+      url: https://taimine.com
+      img: taimine.png
+      twitter: taimineminer
+      facebook: taimineindustries
+      email_address: service@taimine.com
+      region: as
+      bch: Yes
+      btc: Yes
+      othercrypto: Yes
+
+    - name: ViaBTC
+      url: https://pool.viabtc.com/
+      img: viabtc.png
+      bch: Yes
+      btc: Yes
+      othercrypto: Yes

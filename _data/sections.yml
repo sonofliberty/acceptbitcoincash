@@ -1,10 +1,22 @@
+- id: accommodation
+  title: Accommodation
+  icon: suitcase
+
+- id: altmedicine
+  title: Alt. Medicine
+  icon: treatment
+
+- id: antivirus
+  title: Anti-Virus
+  icon: bug
+
 - id: backup
   title: Backup and Sync
   icon: disk outline
 
 - id: banking
   title: Banking
-  icon: dollar
+  icon: university
 
 - id: cloud
   title: Cloud Computing
@@ -14,8 +26,12 @@
   title: Communication
   icon: chat
 
-- id: cryptocurrencies
-  title: Cryptocurrencies
+- id: cryptoexchanges
+  title: Crypto Exchanges
+  icon: exchange
+
+- id: cryptoservices
+  title: Crypto Services
   icon: bitcoin
 
 - id: developer
@@ -38,13 +54,13 @@
   title: Entertainment
   icon: music
 
-- id: finance
-  title: Finance
-  icon: money
-
 - id: food
   title: Food
   icon: coffee
+
+- id: gambling
+  title: Gambling
+  icon: ticket
 
 - id: gaming
   title: Gaming
@@ -55,7 +71,7 @@
   icon: university
 
 - id: health
-  title: Health
+  title: Health & Beauty
   icon: medkit
 
 - id: hosting
@@ -63,12 +79,8 @@
   icon: sitemap
 
 - id: identity
-  title: Identity Management
+  title: ID Management
   icon: user
-
-- id: investing
-  title: Investing
-  icon: basic money
 
 - id: iot
   title: IoT
@@ -77,6 +89,10 @@
 - id: legal
   title: Legal
   icon: legal
+
+- id: mining
+  title: Mining
+  icon: server
 
 - id: other
   title: Other
@@ -98,6 +114,10 @@
   title: Security
   icon: lock
 
+- id: services
+  title: Services
+  icon: fax
+  
 - id: social
   title: Social
   icon: users
@@ -113,3 +133,7 @@
 - id: utilities
   title: Utilities
   icon: phone
+
+- id: wallets
+  title: Wallets
+  icon: privacy
