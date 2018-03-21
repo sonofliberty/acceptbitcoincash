@@ -17,7 +17,17 @@ websites:
       btc: Yes
       othercrypto: Yes
       doc: https://growingveterans.org/how-to-help/invest-with-cryptocurrency.html
-      
+
+    - name: NutritionFacts.org
+      url: https://nutritionfacts.org/
+      img: nutritionfacts.png
+      twitter: nutrition_facts
+      facebook: NutritionFacts.org
+      bch: Yes
+      btc: Yes
+      othercrypto: No
+      doc: https://nutritionfacts.org/donate/
+
     - name: The Bitcoin Cash Fund
       url: https://www.thebitcoincash.fund/
       img: bitcoincashfund.png
@@ -28,3 +38,9 @@ websites:
       othercrypto: No
       doc: https://www.thebitcoincash.fund/donate/
       
+    - name: Wikipedia
+      url: https://www.wikipedia.org/
+      img: wikipedia.png
+      bch: No
+      btc: Yes
+      twitter: Wikipedia

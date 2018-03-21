@@ -3,11 +3,10 @@ require 'fastimage'
 require 'kwalify'
 require 'diffy'
 @output = 0
-@output_soft = 0
+@allowed_output = 0
 
 # Image max size (in bytes)
 @img_recommended_size = 2500
-@img_max_size = 3000
 
 # Image dimensions
 @img_dimensions = [32, 32]
@@ -44,17 +43,17 @@ def test_img(img, name, imgs)
     unless File.extname(img) == @img_extension && FastImage.type(img) == :png
 
   # Check image file size
-  test_img_size(File.size(img))
+  test_img_size(img)
 end
 
-def test_img_size(file_size)
+def test_img_size(img)
+  file_size = File.size(img)
   return unless file_size > @img_recommended_size
 
   error("#{img} should not be larger than #{@img_recommended_size} bytes. "\
           "It is currently #{file_size} bytes.")
 
-  @output_soft += 1\
-    if file_size < @img_max_size
+  @allowed_output += 1
 end
 
 # rubocop:disable MethodLength
@@ -114,7 +113,7 @@ begin
     process_sections_file(file)
   end
 
-  @output -= @output_soft
+  @output -= @allowed_output
 
   exit 1 if @output > 0
 rescue Psych::SyntaxError => e
@@ -125,5 +124,10 @@ rescue StandardError => e
   puts e
   exit 1
 else
-  puts "<------------ No errors. You\'re good to go! ------------>\n"
+  if @allowed_output > 0
+    puts "<------------ No build failing errors found! ------------>\n"
+    puts "<------------ #{@allowed_output} warnings reported! ------------>\n"
+  else
+    puts "<------------ No errors. You\'re good to go! ------------>\n"
+  end
 end
