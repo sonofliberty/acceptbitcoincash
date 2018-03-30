@@ -12,12 +12,12 @@ NULLCMD = :
 #### Start of system configuration section. ####
 
 srcdir = .
-topdir = /home/travis/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0
+topdir = /home/travis/.rvm/rubies/ruby-2.4.1/include/ruby-2.4.0
 hdrdir = $(topdir)
-arch_hdrdir = /home/travis/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/x86_64-linux
+arch_hdrdir = /home/travis/.rvm/rubies/ruby-2.4.1/include/ruby-2.4.0/x86_64-linux
 PATH_SEPARATOR = :
 VPATH = $(srcdir):$(arch_hdrdir)/ruby:$(hdrdir)/ruby
-prefix = $(DESTDIR)/home/travis/.rvm/rubies/ruby-2.4.0
+prefix = $(DESTDIR)/home/travis/.rvm/rubies/ruby-2.4.1
 rubysitearchprefix = $(rubylibprefix)/$(sitearch)
 rubyarchprefix = $(rubylibprefix)/$(arch)
 rubylibprefix = $(libdir)/$(RUBY_BASE_NAME)
@@ -31,8 +31,8 @@ rubyhdrdir = $(includedir)/$(RUBY_VERSION_NAME)
 vendorarchdir = $(vendorlibdir)/$(sitearch)
 vendorlibdir = $(vendordir)/$(ruby_version)
 vendordir = $(rubylibprefix)/vendor_ruby
-sitearchdir = $(DESTDIR)./.gem.20180317-9090-1gxip80
-sitelibdir = $(DESTDIR)./.gem.20180317-9090-1gxip80
+sitearchdir = $(DESTDIR)./.gem.20180330-6519-1umohe6
+sitelibdir = $(DESTDIR)./.gem.20180330-6519-1umohe6
 sitedir = $(rubylibprefix)/site_ruby
 rubyarchdir = $(rubylibdir)/$(arch)
 rubylibdir = $(rubylibprefix)/$(ruby_version)
