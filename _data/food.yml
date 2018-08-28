@@ -115,6 +115,16 @@ websites:
   bch: false
   btc: true
   othercrypto: false
+- name: Friedel Richter
+  url: https://www.friedelrichter.de/
+  img: friedelrichter.png
+  facebook: friedelrichterrestaurant
+  region: eu
+  country: DE
+  city: Berlin
+  bch: Yes
+  btc: Yes
+  othercrypto: No
 - name: Heat Hot Sauce Shop
   url: https://heathotsauce.com/
   img: heathotsauce.png
@@ -342,6 +352,16 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: Sarah's Coffee
+  url: http://www.sarahscoffee.com
+  img: sarahscoffee.png
+  twitter: coffeeandcare
+  facebook: coffeeandcare
+  email_address: sales@sarahscoffee.com
+  country: GB
+  bch: Yes
+  btc: No
+  othercrypto: No
 - name: Sonoran Spice
   url: https://www.sonoranspice.com/
   img: sonoranspice.png
