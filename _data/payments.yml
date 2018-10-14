@@ -166,10 +166,10 @@ websites:
   img: coppay.png
   twitter: CopPay_io
   facebook: CopPay
-  bch: false
+  bch: true
   btc: true
   othercrypto: true
-  status: https://twitter.com/CopPay_io/status/1020372956151676935
+  doc: https://medium.com/@CopPay/coppay-implements-bitcoin-cash-bch-495fc20d8595
 - name: CryptAPI
   url: https://cryptapi.io
   img: cryptapi.png
@@ -283,7 +283,7 @@ websites:
   url: https://www.neteller.com/en_us
   twitter: neteller
   facebook: neteller
-  bch: false
+  bch: true
   btc: true
   keywords:
   - bitpay
@@ -381,12 +381,9 @@ websites:
   bch: true
   btc: true
   othercrypto: true
-  doc: https://www.paysafe.com/paysafegroup/news/detail/skrill-wallet-users-can-now-instantly-buy-and-sell-cryptocurrencies/
   keywords:
   - bitpay
   - bip70
-  exceptions:
-    text: "Bitcoin Cash / Other Crypto is only available in certain markets. Check the documentation link to see which ones are supported."
 - name: Square
   url: https://squareup.com
   twitter: square

@@ -73,9 +73,13 @@ websites:
 - name: Elder Scrolls Online
   url: https://www.elderscrollsonline.com/
   img: eso.png
-  bch: false
+  bch: true
+  btc: true
+  othercrypto: true
   twitter: TESOnline
   email_address: info@bethsoft.com
+  keywords:
+  - webmoney
 - name: Enjin
   url: https://www.enjin.com/
   img: enjin.png
@@ -91,9 +95,13 @@ websites:
 - name: EVE Online
   url: https://www.eveonline.com/
   img: eveonline.png
-  bch: false
+  bch: true
+  btc: true
+  othercrypto: true
   twitter: eveonline
   facebook: eveonline
+  keywords:
+  - webmoney
 - name: FaceIT
   url: https://www.faceit.com
   img: faceit.png
@@ -116,6 +124,8 @@ websites:
   bch: false
   btc: true
   othercrypto: false
+  keywords:
+  - bitbay
 - name: G2G
   url: https://www.g2g.com
   img: g2g.png
@@ -159,11 +169,15 @@ websites:
   twitter: Garenaonline
   facebook: Garenaonline
 - name: GOG.com
-  url: https://www.gog.com
+  url: https://www.gog.com/
   img: gog.png
-  bch: false
+  bch: true
+  btc: true
+  othercrypto: true
   twitter: gogcom
   facebook: gogcom
+  keywords:
+  - webmoney
 - name: GREE
   url: https://product.gree.net/
   img: gree.png
@@ -185,9 +199,15 @@ websites:
 - name: IndieGala
   url: https://www.indiegala.com/
   facebook: IndieGala
-  bch: false
+  bch: true
+  btc: true
+  othercrypto: true
   img: indiegala.png
   twitter: IndieGala
+  doc: http://blog.indiegala.com/index.php/crypto-weekend-sale/
+  keywords:
+  - coinbase
+  - webmoney
 - name: Inkwell Ideas
   url: https://store.inkwellideas.com/
   img: InkwellIdeas.png
@@ -274,6 +294,8 @@ websites:
   btc: true
   othercrypto: true
   doc: https://www.mmoga.com/payment_methods/Bitcoin-and-Altcoins.html
+  keywords:
+  - coingate
 - name: MOGS
   url: https://www.mogs.com/
   img: mogs.png

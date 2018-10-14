@@ -178,14 +178,6 @@ websites:
   bch: true
   btc: true
   othercrypto: true
-- name: CampBX
-  url: https://campbx.com/
-  img: campbx.png
-  bch: false
-  btc: true
-  othercrypto: true
-  twitter: campbx
-  email_address: Media@CampBX.com
 - name: CEX.IO
   url: https://cex.io/
   img: cex.png
@@ -525,10 +517,11 @@ websites:
   img: tradingview.png
   twitter: tradingview
   facebook: tradingview
-  bch: false
+  bch: true
   btc: true
-  othercrypto: false
-  doc: https://www.tradingview.com/wiki/FAQ
+  othercrypto: true
+  keywords:
+  - coinbase
 - name: UPbit
   url: https://upbit.com/
   img: upbit.png
