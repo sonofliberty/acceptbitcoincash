@@ -153,6 +153,17 @@ websites:
   othercrypto: true
   keywords:
   - coinbase
+- name: Death By Coffee
+  url: http://www.deathbycoffee.net/
+  img: deathbycoffee.png
+  twitter: DeathbyCoffeeSA
+  region: af
+  country: ZA
+  state: Eastern Cape
+  city: Port Elizabeth
+  bch: true
+  btc: false
+  othercrypto: false
 - name: DoorDash
   url: https://www.doordash.com
   img: doordash.png
