@@ -194,6 +194,15 @@ websites:
   bch: false
   twitter: cyon
   facebook: cyonhosting
+- name: DataQuest Digital Pty Ltd
+  url: https://dataquestdigital.com.au/
+  img: DataQuestDigitalPtyLtd.png
+  twitter: dq_digital
+  facebook: dq_digital
+  country: AU
+  bch: false
+  btc: false
+  othercrypto: false
 - name: Dreamhost
   url: https://dreamhost.com
   img: dreamhost.png
