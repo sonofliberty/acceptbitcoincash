@@ -17,6 +17,16 @@ websites:
   bch: false
   twitter: airbnb
   facebook: AirBNB
+- name: Apia Inn Samoa
+  url: https://www.apiainnsamoa.com
+  img: ApiaInnSamoa.png
+  bch: true
+  btc: false
+  othercrypto: false
+  twitter: apiainnsamoa
+  facebook: apiainnsamoa
+  email_address: info@apiainnsamoa.com
+  doc: https://www.apiainnsamoa.com/now-accepting-bitcoin-cash/
 - name: CryptoCribs
   url: https://www.cryptocribs.com/
   img: cryptocribs.png
