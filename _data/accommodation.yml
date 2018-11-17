@@ -1,5 +1,17 @@
 ---
 websites:
+- name: a&amp;o hostels
+  url: https://www.aohostels.com
+  img: aohostels.png
+  bch: true
+  btc: true
+  othercrypto: false
+  facebook: aohostels
+  country: DE
+  doc: https://www.aohostels.com/en/services/frequent-guest-advantage/
+  keywords:
+  - bitpay
+  - bip70
 - name: Adormo
   url: https://www.adormo.com/
   img: adormo.png
