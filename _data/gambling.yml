@@ -1,5 +1,12 @@
 ---
 websites:
+- name: 7BitCasino
+  url: https://7bitcasino.com
+  img: 7BitCasino.png
+  bch: true
+  btc: true
+  othercrypto: true
+  email_address: anthony@7bitpartners.com
 - name: 8Bet Crypto Lottery
   url: https://8bet.io
   img: 8bet.png
