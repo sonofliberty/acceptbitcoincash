@@ -1,1 +1,393 @@
-function coinEffect(){var e=$("#main-coin path.glyph"),i=$(".top-side-left-side, .top-side-left-side-force"),t=$(".top-side-right-side, .top-side-right-side-force");e.removeClass("anim-glyph anim-glyph-force"),i.removeClass("top-side-left-side top-side-left-side-force"),t.removeClass("top-side-right-side top-side-right-side-force"),setTimeout(function(){e.addClass("anim-glyph-force")},1),setTimeout(function(){i.addClass("top-side-left-side-force")},1),setTimeout(function(){t.addClass("top-side-right-side-force")},1)}function BCHfilter(){$("#show-bch-only").is(":checked")?($(".no-bch").css("display","none"),$(".bch-only-none-found").css("display","table-row"),$(".bch-only-none-found-mobile").css("display","block"),$(".bch-only-hidden").css("opacity","0.4")):($(".website-table:visible img").trigger("unveil"),$(".bch-only-none-found, .bch-only-none-found-mobile").css("display","none"),$(".bch-only-hidden").css("opacity","1"),$(".mobile-table .no-bch").css("display","block"),$(".desktop-table .no-bch").css("display","table-row")),isSearching&&jets.options.didSearch($("#bch-merchant-search").val())}function isOpen(e){return $("#"+e+" h5").hasClass("active-icon")}function openCategory(e){$(".category h5").removeClass("active-icon"),$(".website-table").css("display","none"),$(".fab button:nth-child(3)").css("display","inline-block"),BCHfilter(),window.location.hash=e;var i=$("#"+e+" h5"),t=$("#"+e+" h5 i");if(i.addClass("active-icon"),$(window).width()>768){$("#"+e+"-desktoptable").slideDown("slow");var o=$("html, body");o.stop().animate({scrollTop:t.offset().top-120},1e3,"swing")}else{$("#"+e+"-mobiletable").css("display","block");var o=$("html, body");o.stop().animate({scrollTop:t.offset().top-120},1e3,"swing")}}function closeCategory(e){$("."+e+"-table").slideUp(),$("#"+e+" h5").removeClass("active-icon"),history.pushState("",document.title,window.location.pathname),$(".fab button:nth-child(3)").css("display","none")}!function(e){e.fn.unveil=function(i,t){function o(){var i=r.filter(function(){var i=e(this);if(!i.is(":hidden")){var t=s.scrollTop(),o=t+s.height(),n=i.offset().top;return n+i.height()>=t-c&&n<=o+c}});n=i.trigger("unveil"),r=r.not(n)}var n,s=e(window),c=i||0,a=window.devicePixelRatio>1,l=a?"data-src-retina":"data-src",r=this;return this.one("unveil",function(){var e=this.getAttribute(l);(e=e||this.getAttribute("data-src"))&&(this.setAttribute("src",e),"function"==typeof t&&t.call(this))}),s.on("scroll.unveil resize.unveil lookup.unveil",o),o(),this}}(window.jQuery||window.Zepto),$(document).ready(function(){var e="USD,EUR,JPY,CNY";ticker=function(i){var t={USD:"&#36;",CNY:"&#165;",JPY:"&#165;",EUR:"&#8364;"};$.ajax({type:"GET",url:"https://min-api.cryptocompare.com/data/price?fsym=BCH&tsyms="+i,contentType:"application/json; charset=utf-8",timeout:6e3,error:function(){"<li>Loading&hellip;</li>"===$("#ticker_value").html()&&$("#ticker_value").html("<li><em>Problem loading prices from CryptoCompare API. Please try again later.</em></li>")},success:function(e){for(var o=[],n=i.split(","),s=0;s<n.length;s++){var c=n[s],a=t[c];a===undefined&&(a=""),o.push('<li>BCH <span class="curr-symbol">'+a+"</span> "+c+'<span class="curr-price">'+e[c]+"</span></li>")}$("#ticker_value").html(o)}}).done(function(){setTimeout(function(){ticker(e)},6e4)}).fail(function(){setTimeout(function(){ticker(e)},6e4)})},$("#ticker_value").length&&ticker(e)}),$(document).ready(function(){var e=function(e){var i,t,o=decodeURIComponent(window.location.search.substring(1)),n=o.split("&");for(t=0;t<n.length;t++)if(i=n[t].split("="),i[0]===e)return i[1]===undefined||i[1]};if("all"==e("filter")&&$("#show-bch-only").prop("checked",!1),e("skipToListings")){$("html, body").stop().animate({scrollTop:$("#maingrid").offset().top-128},500,"swing")}$(".clear-bch-only").click(function(){$("#show-bch-only").prop("checked",!1),BCHfilter()}),window.location.hash&&window.location.hash.indexOf("#")>-1&&openCategory(window.location.hash.substring(1)),$(".ui.sticky.bch-only").sticky({onStick:function(){$(this).css({height:"auto"})}}),$(".fab button:nth-child(1), #top-btn-top").on("click",function(){$("html, body").stop().animate({scrollTop:0},500,"swing",function(){coinEffect()})}),$("#skip-to-content").on("click",function(){$("html, body").stop().animate({scrollTop:$("#maingrid").offset().top-128},500,"swing")}),$(".fab button:nth-child(3)").on("click",function(){if(isSearching&&jets.options.didSearch($("#bch-merchant-search").val()),0==isSearching){$(".website-table").slideUp();$("html, body").stop().animate({scrollTop:$(".category h5.active-icon").offset().top-120},1e3,"swing"),$(".category h5").removeClass("active-icon"),$(this).css("display","none"),document.location.hash=""}else $(this).hasClass("attention")?($(this).removeClass("attention"),$("#bch-merchant-search").removeClass("attention")):($(this).addClass("attention"),$("#bch-merchant-search").addClass("attention"))}),$("button#search-clear").on("click",function(){$("#search-wrapper input#bch-merchant-search").val(""),$("#no-results").css("display","none"),$(".category").show(),$(".website-table").hide(),$("#maingrid").css("visibility","visible"),$("#search-wrapper input#bch-merchant-search").focus(),$("head style").html("")}),$("#ama-merchant").on("click",function(){$(".ui.modal.ama-merchant").modal("show")}),$("#ama-customer").on("click",function(){$(".ui.modal.ama-customer").modal("show")}),$("#assets").on("click",function(){$(".ui.modal.assets").modal("show"),$("img.p-logo").trigger("unveil"),$("img.image").trigger("unveil")}),$("#art-collections").on("click",function(){$(".ui.modal.art-collections").modal("show")}),$("#abci-logo, h1 i, #about-this-site").on("click",function(){$(".ui.modal.about-this-site").modal("show"),$(".about-this-site img").trigger("unveil")}),$("#show-disclaimer").on("click",function(){$(".ui.modal.disclaimer").modal("show")}),$("img").unveil(50),$("span.popup.exception").popup({hoverable:!0}),$("a.popup.exception").popup(),$(".ui.bch-progress").progress({label:"percent",showActivity:!1})}),$(window).resize(function(){this.resizeTO&&clearTimeout(this.resizeTO),this.resizeTO=setTimeout(function(){$(this).trigger("resizeEnd")},500)});var isSearching=!1;if(document.getElementById("bch-merchant-search")instanceof Object)var jets=new Jets({searchTag:"#bch-merchant-search",contentTag:".bch-merchant-content",didSearch:function(e){document.location.hash="",$("#no-results").css("display","none"),$("#maingrid").css("visibility","visible"),$(".category h5").removeClass("active-icon");var i=$(window).width()>768?"desktop":"mobile",t=$("."+i+"-table .bch-merchant-content"),o=$("."+i+"-table");if(""==e)$(".website-table").css("display","none"),$(".website-table .label").css("display","none"),$("#search-clear").css("display","none"),$(".category").show(),$("table").show(),isSearching=!1;else{$(".website-table").css("display","none"),$(".website-table .label").css("display","block"),$(".category").hide(),o.css("display","block"),t.parent().show();for(var n=0;n<t.length;n++){var s=$(t[n]);s.children(":hidden").length===s.children().length&&("mobile"==i?s.parent().hide():s.parent().parent().hide())}o.children().length==o.children(":hidden").length&&($("#no-results").css("display","block"),$("#maingrid").css("visibility","hidden")),$("#search-clear").fadeIn("slow"),isSearching=!0,$("html, body").scrollTop($("#maingrid").offset().top-128)}},addImportant:!0,manualContentHandling:function(e){return $(e).find(".title > div.keywords").text()}});$(window).on("resizeEnd",function(){isSearching&&jets.options.didSearch($("#bch-merchant-search").val())}),$(".category").click(function(){var e=$(this).attr("id");isOpen(e)?closeCategory(e):openCategory(e)}),$(".z-switch").click(function(){BCHfilter()});
+
+
+
+(function(e){e.fn.unveil=function(t,n){function f(){var t=u.filter(function(){var t=e(this);if(t.is(":hidden"))return;var n=r.scrollTop(),s=n+r.height(),o=t.offset().top,u=o+t.height();return u>=n-i&&o<=s+i});a=t.trigger("unveil");u=u.not(a)}var r=e(window),i=t||0,s=window.devicePixelRatio>1,o=s?"data-src-retina":"data-src",u=this,a;this.one("unveil",function(){var e=this.getAttribute(o);e=e||this.getAttribute("data-src");if(e){this.setAttribute("src",e);if(typeof n==="function")n.call(this)}});r.on("scroll.unveil resize.unveil lookup.unveil",f);f();return this}})(window.jQuery||window.Zepto)
+/**
+ *  A comma separated list of currencies to display
+ * Credit to bitcoincash.org for ticker code which uses CryptoCompare API
+ */
+
+$(document).ready(function () {
+	var ticker_currencies = "USD,EUR,JPY,CNY"
+	ticker = function(currencies) {
+	  var symbols = {
+		USD: "&#36;",
+		CNY: "&#165;",
+		JPY: "&#165;",
+		EUR: "&#8364;"
+	  }
+	  
+	  $.ajax({
+		type: "GET",
+		url: "https://min-api.cryptocompare.com/data/price?fsym=BCH&tsyms=" + currencies,
+		contentType: "application/json; charset=utf-8",
+		timeout: 6000,
+		error: function (x, t, m) {
+		  if ($('#ticker_value').html() === '<li>Loading&hellip;</li>') {
+			$('#ticker_value').html("<li><em>Problem loading prices from CryptoCompare API. Please try again later.</em></li>");
+		  }
+		},
+		success: function (currencyRates) {
+		  var output = [];
+		  var parsedCurrencies = currencies.split(',');
+		  for(var i = 0; i < parsedCurrencies.length; i++) {
+			  var currency = parsedCurrencies[i];
+			  var sym = symbols[currency];
+			  if (sym === undefined) {
+				sym = "";
+			  }
+			  
+			  output.push("<li>BCH <span class=\"curr-symbol\">" + sym + "</span> " + currency + "<span class=\"curr-price\">" + currencyRates[currency] + "</span></li>");
+		  }
+		  
+		  $('#ticker_value').html(output);
+		}
+	  }).done(function () {
+		setTimeout(function(){ ticker(ticker_currencies); }, 60000);
+	  }).fail(function() {
+		setTimeout(function(){ ticker(ticker_currencies); }, 60000);
+	  });
+	}
+
+	// Only do something if we see the element exists (this prevents errors
+    if($('#ticker_value').length) {
+      ticker(ticker_currencies);
+    }
+});
+// When DOM elements are ready, excluding images
+$(document).ready(function () {
+
+  // Get all URL parameters
+  var getUrlParameter = function getUrlParameter(sParam) {
+    var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+      sURLVariables = sPageURL.split('&'),
+      sParameterName,
+      i;
+
+    for (i = 0; i < sURLVariables.length; i++) {
+      sParameterName = sURLVariables[i].split('=');
+      if (sParameterName[0] === sParam) {
+        return sParameterName[1] === undefined ? true : sParameterName[1];
+      }
+    }
+  };
+
+  // Check if URL parameter exists to filter by BCH-only
+  if (getUrlParameter('filter') == 'all') {
+    $('#show-bch-only').prop('checked', false);
+  }
+
+  // Check if URL parameter exists to skip to content (due to window.location.hash being used for categories)
+  if (getUrlParameter('skipToListings')) {
+    var body = $("html, body");
+    body.stop().animate({scrollTop: $('#maingrid').offset().top - 128}, 500, 'swing');
+  }
+
+  // Clear the BCH-only view
+  $('.clear-bch-only').click(function () {
+    $('#show-bch-only').prop('checked', false);
+    BCHfilter();
+  });
+
+  // Check if URL references specific category
+  if (window.location.hash && window.location.hash.indexOf('#') > -1) {
+    openCategory(window.location.hash.substring(1));
+  }
+
+  // Stick the BCH-only filter to the top on scroll
+  $('.ui.sticky.bch-only').sticky({
+		onStick: function(){
+			$(this).css({
+				height: 'auto'
+			});
+		}
+  });
+
+  // Scroll to the top via floating action button and filter bar link, then pop some flair
+  $('.fab button:nth-child(1), #top-btn-top').on('click', function () {
+    var body = $("html, body");
+    body.stop().animate({scrollTop:0}, 500, 'swing', function () {
+      coinEffect();
+
+      // Restores the opened category hash in URL, but causes Firefox to skip back to it
+      //if (window.location.hash && window.location.hash.indexOf('#') > -1) {
+        //document.location.hash = window.location.hash.substring(1);
+      //}
+    });
+  });
+
+  // Scroll to the main content grid
+  $('#skip-to-content').on('click', function () {
+    var body = $("html, body");
+    body.stop().animate({scrollTop: $('#maingrid').offset().top - 128}, 500, 'swing');
+  });
+
+  // Clear and collapse all open categories
+  $('.fab button:nth-child(3)').on('click', function () {
+    if (isSearching) jets.options.didSearch( $('#bch-merchant-search').val() );
+    if (isSearching == false) {
+      $('.website-table').slideUp();
+      var body = $("html, body");
+      body.stop().animate({scrollTop: $('.category h5.active-icon').offset().top - 120}, 1000, 'swing');
+      $('.category h5').removeClass('active-icon');
+      $(this).css('display', 'none');
+      document.location.hash = '';
+    } else {
+      if ($(this).hasClass('attention')) {
+        $(this).removeClass('attention');
+        $("#bch-merchant-search").removeClass('attention');
+      } else {
+        $(this).addClass('attention');
+        $("#bch-merchant-search").addClass('attention');
+      }
+    }
+  });
+
+  // Clear the active search terms
+  $('button#search-clear').on('click', function () {
+    $('#search-wrapper input#bch-merchant-search').val('');
+    $('#no-results').css('display', 'none');
+    $('.category').show();
+    $('.website-table').hide();
+    $('#maingrid').css('visibility', 'visible');
+    $('#search-wrapper input#bch-merchant-search').focus();
+    $('head style').html("");
+  });
+
+  $('#ama-merchant').on('click', function () {
+    $('.ui.modal.ama-merchant').modal('show');
+  });
+
+  $('#ama-customer').on('click', function () {
+    $('.ui.modal.ama-customer').modal('show');
+  });
+
+  $('#assets').on('click', function () {
+    $('.ui.modal.assets').modal('show');
+    $('img.p-logo').trigger('unveil');
+    $('img.image').trigger('unveil');
+  });
+
+  $('#art-collections').on('click', function () {
+    $('.ui.modal.art-collections').modal('show');
+  });
+
+  $('#abci-logo, h1 i, #about-this-site').on('click', function () {
+    $('.ui.modal.about-this-site').modal('show');
+    $('.about-this-site img').trigger('unveil');
+  });
+
+  $('#show-disclaimer').on('click', function () {
+    $('.ui.modal.disclaimer').modal('show');
+  });
+
+  // Unveil images 50px before they appear
+  $('img').unveil(50);
+
+  // Show exception warnings upon hover
+  $('span.popup.exception').popup({
+    hoverable: true
+  });
+  $('a.popup.exception').popup();
+
+  // Display progress counter for sites accepting BCH out of total sites listed
+  $('.ui.bch-progress').progress({
+    label: 'percent',
+    showActivity: false
+  });
+});
+
+/**
+ * Draw a neat animation on the main Bitcoin Cash logo at the top of the page
+ */
+function coinEffect() {
+  var mainCoin = $('#main-coin path.glyph');
+  var leftSideCoin = $('.top-side-left-side, .top-side-left-side-force');
+  var rightSideCoin = $('.top-side-right-side, .top-side-right-side-force');
+
+  mainCoin.removeClass("anim-glyph anim-glyph-force");
+  leftSideCoin.removeClass("top-side-left-side top-side-left-side-force");
+  rightSideCoin.removeClass("top-side-right-side top-side-right-side-force");
+  setTimeout(
+    function(){ mainCoin.addClass('anim-glyph-force') }
+  , 1);
+  setTimeout(
+    function(){ leftSideCoin.addClass('top-side-left-side-force') }
+  , 1);
+  setTimeout(
+    function(){ rightSideCoin.addClass('top-side-right-side-force') }
+  , 1);
+}
+
+/**
+ * Create an event that is called 500ms after the browser
+ * window is re-sized and has finished being re-sized.
+ * This event corrects for browser differences in the
+ * triggering of window resize events.
+ */
+$(window).resize(function () {
+  if (this.resizeTO) clearTimeout(this.resizeTO);
+  this.resizeTO = setTimeout(function () {
+    $(this).trigger('resizeEnd');
+  }, 500);
+});
+
+var isSearching = false;
+if(document.getElementById('bch-merchant-search') instanceof Object){
+	var jets = new Jets({
+	  searchTag: '#bch-merchant-search',
+	  contentTag: '.bch-merchant-content',
+	  didSearch: function (searchPhrase) {
+		document.location.hash = '';
+		$('#no-results').css('display', 'none');
+		$('#maingrid').css('visibility', 'visible');
+		$('.category h5').removeClass('active-icon');
+		// Two separate table layouts are used for desktop/mobile
+		var platform = ($(window).width() > 768) ? 'desktop' : 'mobile';
+		var content = $('.' + platform + '-table .bch-merchant-content');
+		var table = $('.' + platform + '-table');
+
+		// Non-strict comparison operator is used to allow for null
+		if (searchPhrase == '') {
+		  // Show all categories when no search term is entered
+		  $('.website-table').css('display', 'none');
+		  $('.website-table .label').css('display', 'none');
+		  $('#search-clear').css('display', 'none');
+		  $('.category').show();
+		  $('table').show();
+		  isSearching = false;
+		} else {
+		  // Hide irrelevant categories
+		  $('.website-table').css('display', 'none');
+		  $('.website-table .label').css('display', 'block');
+		  $('.category').hide();
+		  table.css('display', 'block');
+		  content.parent().show();
+		  for(var i = 0; i < content.length; i++) {
+			var section = $(content[i]);
+			// Hide table when all rows within are hidden by Jets
+			if (section.children(':hidden').length === section.children().length) {
+			  if (platform == 'mobile') section.parent().hide();
+			  else section.parent().parent().hide();
+			}
+		  }
+
+		  if (table.children().length == table.children(':hidden').length) {
+			  $('#no-results').css('display', 'block');
+			  $('#maingrid').css('visibility', 'hidden');
+		  }
+
+		  $('#search-clear').fadeIn('slow');
+
+		  isSearching = true;
+
+		  //$('html, body').stop().animate({scrollTop: $('#maingrid').offset().top - 120}, 500, 'swing');
+		  $('html, body').scrollTop($('#maingrid').offset().top - 128);
+		}
+	  },
+	  addImportant: true,
+	  // Process searchable elements manually
+	  manualContentHandling: function(tag) {
+		var searchItems = $(tag).find('.title > div.keywords').text();
+		return searchItems;
+	  }
+	});
+}
+
+/**
+ * Ensure searching is conducted with regard to the user's viewport
+ * after re-sizing the screen and close all categories after re-sizing
+ */
+$(window).on('resizeEnd', function () {
+  if (isSearching) jets.options.didSearch( $('#bch-merchant-search').val() );
+});
+
+// Display tables and color category selectors
+$('.category').click(function () {
+  var name = $(this).attr('id');
+  isOpen(name) ? closeCategory(name) : openCategory(name);
+});
+
+/**
+ * Toggle visibility of merchants who accept Bitcoin Cash
+ */
+$('.z-switch').click(function () {
+  BCHfilter();
+});
+
+/**
+ * Check if the user wants to filter by Bitcoin Cash only
+ */
+function BCHfilter() {
+ if ($('#show-bch-only').is(':checked')) {
+    $('.no-bch').css('display', 'none');
+    $('.bch-only-none-found').css('display', 'table-row');
+    $('.bch-only-none-found-mobile').css('display', 'block');
+    $('.bch-only-hidden').css('opacity', '0.4');
+  } else {
+    $('.website-table:visible img').trigger('unveil');
+    $('.bch-only-none-found, .bch-only-none-found-mobile').css('display', 'none');
+    $('.bch-only-hidden').css('opacity', '1');
+    $('.mobile-table .no-bch').css('display', 'block');
+    $('.desktop-table .no-bch').css('display', 'table-row');
+  }
+  if (isSearching) jets.options.didSearch( $('#bch-merchant-search').val() );
+}
+
+/**
+ * Checks if a category is open
+ *
+ * @param category The id of a category as a string
+ * @returns {*|jQuery} A true or false value, whether the category is open
+ */
+function isOpen(category) {
+  return $('#' + category + ' h5').hasClass('active-icon');
+}
+
+/**
+ * Opens a category, ensures the icon is active and scrolls to the icon
+ *
+ * @param category The id of a category as a string
+ */
+function openCategory(category) {
+  // Close all active categories
+  $('.category h5').removeClass('active-icon');
+  $('.website-table').css('display', 'none');
+  $('.fab button:nth-child(3)').css('display', 'inline-block');
+  BCHfilter();
+
+  // Place the category being viewed in the URL bar
+  window.location.hash = category;
+
+  var cat = $('#' + category + ' h5');
+  var icon = $('#' + category + ' h5 i');
+  cat.addClass('active-icon');
+  if ($(window).width() > 768) {
+    $('#' + category + '-desktoptable').slideDown('slow');
+
+    // Scroll smoothly to category selector
+    var body = $("html, body");
+    body.stop().animate({scrollTop: icon.offset().top - 120}, 1000, 'swing');
+
+  } else {
+    $('#' + category + '-mobiletable').css('display','block');
+    // Quickly snap to category selector
+    var body = $("html, body");
+    body.stop().animate({scrollTop: icon.offset().top - 120}, 1000, 'swing');
+    //document.location.hash = category;
+  }
+
+}
+
+/**
+ * Closes a category and ensures the icon is inactive
+ *
+ * @param category The id of a category as a string
+ */
+function closeCategory(category) {
+  $('.' + category + '-table').slideUp();
+  $('#' + category + ' h5').removeClass('active-icon');
+  history.pushState('', document.title, window.location.pathname);
+  $('.fab button:nth-child(3)').css('display', 'none');
+}
+
