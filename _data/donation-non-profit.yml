@@ -58,6 +58,16 @@ websites:
   othercrypto: true
   keywords:
   - coinbase
+- name: Ethiopiaid Australia
+  url: https://ethiopiaid.org.au/
+  img: EthiopiaidAustralia.png
+  bch: true
+  btc: false
+  othercrypto: true
+  twitter: ethiopiaidaus
+  facebook: ethiopiaidaus
+  email_address: info@ethiopiaid.org.au
+  doc: https://ethiopiaid.org.au/blog/ethiopiaid-cryptocurrency-donation
 - name: Growing Veterans
   url: https://growingveterans.org/
   img: growingveterans.png
