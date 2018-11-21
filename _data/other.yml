@@ -299,6 +299,14 @@ websites:
   bch: false
   twitter: watchmanmonitor
   facebook: watchmanmonitoring
+- name: We Leak Info
+  url: https://weleakinfo.com
+  img: WeLeakInfo.png
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: weleakinfo
+  email_address: admin@weleakinfo.com
 - name: Webmin
   url: http://www.webmin.com/
   img: webmin.png
