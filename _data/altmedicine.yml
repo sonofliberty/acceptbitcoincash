@@ -44,6 +44,14 @@ websites:
   btc: true
   othercrypto: true
   doc: http://kationickratom.com/lovingkratom/pago-bitcoin-altcoin/
+- name: Khemcorp (Oxytocin Nasal Spray)
+  url: https://www.khemcorp.com/
+  img: khemcorp.png
+  bch: true
+  btc: true
+  othercrypto: true
+  keywords:
+  - coinpayments.net
 - name: Kratom Buddha
   url: https://kratombuddha.com/
   img: kratombuddha.png
