@@ -1605,6 +1605,16 @@ websites:
   keywords:
   - bitpay
   - bip70
+- name: Soulobjects
+  url: https://soulobjects.de/
+  img: Soulobjects.png
+  bch: true
+  btc: true
+  othercrypto: false
+  facebook: soulobjects
+  keywords:
+  - bitpay
+  - bip70
 - name: Spokester
   url: https://spokester.com/
   img: spokester.png
