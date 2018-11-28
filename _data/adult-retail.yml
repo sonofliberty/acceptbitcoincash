@@ -60,6 +60,14 @@ websites:
   keywords:
   - bitpay
   - bip70
+- name: My-doll
+  url: https://www.my-doll.com/
+  img: My-doll.png
+  bch: false
+  btc: false
+  othercrypto: false
+  twitter: mydolldotcom
+  email_address: support@my-doll.com
 - name: Pheromone XS
   url: https://pheromonexs.com/
   img: pheromonexs.png
