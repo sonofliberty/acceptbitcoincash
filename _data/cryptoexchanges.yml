@@ -274,6 +274,14 @@ websites:
   facebook: coinfloor
   twitter: coinfloor
   email_address: support@coinfloor.co.uk
+- name: CoinMate
+  url: https://coinmate.io/
+  img: CoinMate.png
+  bch: true
+  btc: true
+  othercrypto: true
+  facebook: Coinmate
+  doc: https://blog.coinmate.io/currency-pairs-bcheur-and-bchczk-added/
 - name: CoinOne
   url: https://coinone.co.kr/
   img: coinone.png
