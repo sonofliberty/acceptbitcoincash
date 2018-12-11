@@ -32,8 +32,9 @@ websites:
   region: sa
   country: CO
   lang: es
-  bch: true
+  bch: false
   btc: true
+  bsv: true
   othercrypto: false
 - name: BitKassa
   url: https://www.bitkassa.nl/
@@ -266,9 +267,10 @@ websites:
 - name: moneybutton.com
   url: https://www.moneybutton.com/
   img: moneybutton.png
-  bch: true
-  btc: true
-  othercrypto: true
+  bch: false
+  btc: false
+  bsv: true
+  othercrypto: false
   twitter: money_button
 - name: Mycelium Gear
   url: https://gear.mycelium.com/
