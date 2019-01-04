@@ -102,19 +102,6 @@ websites:
   bch: false
   twitter: GooglePlus
   facebook: GooglePlus
-- name: Honest.cash
-  url: https://honest.cash/
-  img: honest-cash.png
-  twitter: honest_cash
-  bch: true
-  bsv: false
-  btc: false
-  othercrypto: false
-  doc: https://honest.cash/honest_cash/honestcash-wallet-update-132
-  keywords:
-  - blog
-  - micropayment
-  - tipping
 - name: HootSuite
   url: https://hootsuite.com
   img: hootsuite.png
