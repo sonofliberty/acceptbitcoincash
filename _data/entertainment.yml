@@ -142,6 +142,15 @@ websites:
   bch: false
   twitter: IMDb
   facebook: imdb
+- name: Keyport
+  url: https://www.keyport.tv/
+  img: keyport.png
+  twitter: keyportTV
+  email_address: sumanth@keyport.tv
+  bch: false
+  btc: false
+  bsv: true
+  othercrypto: false
 - name: Last.fm
   url: https://www.last.fm/
   img: lastfm.png
