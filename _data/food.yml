@@ -132,7 +132,7 @@ websites:
   region: na
   doc: http://www.vinoscasadepiedra.com
   exceptions:
-    text: "Go to the "Pay in Bitcoin" tab."
+    text: "Go to the Pay in Bitcoin tab."
 - name: City Lounge
   url: http://www.ourcitylounge.com/
   img: cityLounge.png
