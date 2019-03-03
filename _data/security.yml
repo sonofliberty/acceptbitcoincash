@@ -56,6 +56,16 @@ websites:
   btc: false
   othercrypto: false
   email_address: adblock@ba.net
+- name: Bitwarden
+  url: https://bitwarden.com/
+  img: bitwarden.png
+  bch: true
+  btc: true
+  othercrypto: false
+  doc: https://blog.bitwarden.com/now-accepting-bitcoin-11bdf6e04ad1
+  keywords:
+  - bitpay
+  - bip70
 - name: Blur
   url: https://www.abine.com/
   img: blur.png
@@ -69,6 +79,10 @@ websites:
   btc: true
   othercrypto: true
   twitter: bolehvpn
+  keywords:
+  - bitpay
+  - bip70
+  - coinpayments.net
 - name: BuyPrivacy
   url: https://www.buyprivacy.net
   img: buyprivacy.png
@@ -97,11 +111,15 @@ websites:
   othercrypto: true
   twitter: CrypticVPN
 - name: CyberGhost
-  url: https://www.cyberghostvpn.com
+  url: https://www.cyberghostvpn.com/
   img: cyberghost.png
-  bch: false
+  bch: true
+  btc: true
   twitter: cyberghost_EN
   facebook: cyberghostEN
+  keywords:
+  - bitpay
+  - bip70
 - name: Detectify
   url: https://detectify.com/
   img: detectify.png
@@ -218,6 +236,16 @@ websites:
   keywords:
   - bitpay
   - bip70
+- name: Ivacy VPN
+  url: https://www.ivacy.com/
+  img: ivacyvpn.png
+  bch: true
+  btc: true
+  othercrypto: true
+  keywords:
+  - bitpay
+  - bip70
+  - coinpayments.net
 - name: IVPN
   url: https://www.ivpn.net/
   img: ivpn.png
@@ -228,6 +256,16 @@ websites:
   keywords:
   - bitpay
   - bip70
+- name: LiquidVPN
+  url: https://www.liquidvpn.com/
+  img: liquidvpn.png
+  twitter: LiquidVPN
+  facebook: LiquidVPN
+  bch: true
+  btc: true
+  othercrypto: true
+  keywords:
+  - bitpay
 - name: Mullvad VPN
   url: https://mullvad.net/
   twitter: mullvadnet
@@ -251,9 +289,12 @@ websites:
   url: https://nvpn.net/
   img: nvpn.png
   twitter: nVpnNet
+  facebook: nvpn.net
   bch: true
   btc: true
   othercrypto: true
+  keywords:
+  - coinpayments.net
 - name: OpenDNS
   url: https://www.opendns.com/
   img: opendns.png
@@ -323,6 +364,10 @@ websites:
   othercrypto: true
   twitter: purevpn
   facebook: PureVPNcom
+  keywords:
+  - coinpayments.net
+  exceptions:
+    text: No refunds for cryptocurrency
 - name: Pwnie Express Pwn Pulse
   url: https://www.pwnieexpress.com/products/pulse-device-detection
   img: pwnieexpress.png
@@ -483,6 +528,17 @@ websites:
   doc: https://vpn.ac/announcements/51/Bitcoin-payments-through-BitPay-suspended.html
   keywords:
   - coinpayments.net
+  - bitpay
+  - bip70
+- name: VPNArea
+  url: https://vpnarea.com/
+  img: vpnarea.png
+  twitter: vpnareacom
+  facebook: vpnarea
+  bch: true
+  btc: true
+  othercrypto: false
+  keywords:
   - bitpay
   - bip70
 - name: Windscribe

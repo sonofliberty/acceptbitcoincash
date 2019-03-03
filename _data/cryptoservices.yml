@@ -29,8 +29,9 @@ websites:
   keywords:
   - coinpayments.net
 - name: BestMixer.io
-  url: https://bestmixer.io/en
+  url: https://bestmixer.io/
   img: bestmixer.png
+  twitter: BestMixerIO
   email_address: bestmixer@protonmail.com
   bch: true
   btc: true
@@ -84,6 +85,13 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: BitcoinFiles
+  url: https://bitcoinfiles.com/
+  img: bitcoinfiles.png
+  twitter: BitcoinFilesBCH
+  bch: true
+  btc: false
+  othercrypto: false
 - name: BitcoinPlug
   url: https://bitcoinplug.com
   twitter: bitcoinplugatm
@@ -390,6 +398,12 @@ websites:
   bsv: true
   othercrypto: false
   doc: https://www.yours.org/content/fivebucks--the-only-truly-global-freelance-services-marketplace-is-now-20d53893af96
+- name: Forra
+  url: https://forra.io/
+  img: forra.png
+  bch: true
+  btc: true
+  othercrypto: true
 - name: GiftOff
   url: https://www.giftoff.com/
   img: giftoff.png
@@ -489,6 +503,13 @@ websites:
   twitter: localcoinswap_
   facebook: localcoinswap
   email_address: penelope@localcoinswap.com
+- name: Memopay
+  url: https://www.memopay.xyz/
+  img: memopay.png
+  twitter: memopay_xyz
+  bch: true
+  btc: false
+  othercrypto: false
 - name: N.exchange
   url: https://n.exchange/
   img: nexchange.png
@@ -634,6 +655,16 @@ websites:
   btc: true
   othercrypto: true
   doc: https://news.wmtransfer.com/en/blog/announcement_related_to_the_hard_fork_within_the_bitcoin_network
+- name: WeGift
+  url: https://wegift.io/
+  img: wegift.png
+  twitter: WeGift
+  facebook: WeGift.io
+  bch: true
+  btc: true
+  othercrypto: true
+  keywords:
+  - coinbase
 - name: Working For Bitcoins
   url: https://workingforbitcoins.com/
   img: WorkingForBitcoins.png

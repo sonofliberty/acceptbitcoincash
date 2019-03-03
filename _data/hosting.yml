@@ -350,6 +350,16 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: Host-Unlimited.de
+  url: https://host-unlimited.de/
+  img: hostunlimited.png
+  twitter: host_unlimited
+  facebook: HostUnlimited.de
+  bch: true
+  btc: true
+  othercrypto: true
+  keywords:
+  - coinbase
 - name: Host1.no
   url: https://host1.no
   img: host1.png
@@ -370,6 +380,17 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: Hosting.co.uk
+  url: https://www.hosting.co.uk/
+  img: hostingcouk.png
+  twitter: hosting_couk
+  facebook: hosting.co.uk
+  bch: true
+  btc: true
+  othercrypto: false
+  keywords:
+  - bitpay
+  - bip70
 - name: Hostinger
   url: https://www.hostinger.com/
   img: Hostinger.png
@@ -783,6 +804,18 @@ websites:
     text: Link to complete payment at Support page
   keywords:
   - coinpayments.net
+- name: ServerAstra
+  url: https://serverastra.com/
+  img: serverastra.png
+  twitter: serverastra
+  facebook: serverastra
+  email_address: info@serverastra.com
+  bch: true
+  btc: true
+  othercrypto: false
+  keywords:
+  - bitpay
+  - bip70
 - name: Servercow
   url: https://www.servercow.de
   img: servercow.png

@@ -137,7 +137,7 @@ websites:
   url: https://guarda.co/
   img: GuardaWallet.png
   bch: true
-  btc: false
+  btc: true
   othercrypto: true
   twitter: guardawallet
 - name: HandCash
@@ -186,6 +186,13 @@ websites:
   country: za
   city: Cape Town
   bch: false
+  btc: true
+  othercrypto: true
+- name: melis.io
+  url: https://melis.io/
+  img: melisio.png
+  twitter: meliswallet
+  bch: true
   btc: true
   othercrypto: true
 - name: Mycelium

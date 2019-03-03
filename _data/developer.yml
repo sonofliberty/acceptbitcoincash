@@ -383,6 +383,13 @@ websites:
   bch: false
   twitter: sfnet_ops
   facebook: SourceforgeNet
+- name: Spedn
+  url: https://spedn.readthedocs.io/
+  img: spedn.png
+  twitter: tendo_pein_sama
+  bch: true
+  btc: false
+  othercrypto: false
 - name: Status.io
   url: https://status.io/
   img: statusio.png
@@ -497,12 +504,20 @@ websites:
   twitter: visionati
   facebook: visionati
   email_address: josh@visionati.com
+  keywords:
+  - coinbase
 - name: Visual Studio Online
   url: https://www.visualstudio.com/
   img: visualstudio.png
   bch: false
   twitter: visualstudio
   facebook: visualstudio
+- name: We Program IT
+  url: https://www.weprogram.it/
+  email_address: contact@weprogram.it
+  bch: true
+  btc: true
+  othercrypto: true
 - name: Zapier
   url: https://zapier.com
   img: zapier.png

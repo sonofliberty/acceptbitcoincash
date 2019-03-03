@@ -48,6 +48,16 @@ websites:
   btc: true
   othercrypto: true
   doc: https://twitter.com/FareShare1/status/949041934453981185
+- name: GiveCrypto
+  url: https://www.givecrypto.org/
+  img: givecrypto.png
+  twitter: givecrypto
+  bch: true
+  btc: true
+  othercrypto: true
+  doc: https://www.givecrypto.org/donate
+  keywords:
+  - coinbase
 - name: Run 2 Rescue
   url: http://run2rescue.com
   img: run2rescue.png
@@ -62,7 +72,10 @@ websites:
   img: uniceffr.png
   twitter: UNICEF_france
   facebook: UNICEF.France
-  bch: true
+  bch: false
   btc: true
   othercrypto: true
   doc: https://lp.unicef.fr/faire-un-don-en-cryptomonnaie/
+  exceptions:
+    text: UNICEF France used to accept BCH, but as of 2018-12-28 stopped accepting
+      it

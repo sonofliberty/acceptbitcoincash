@@ -90,6 +90,13 @@ websites:
   bch: false
   twitter: Crunchyroll
   facebook: Crunchyroll
+- name: DashDucks
+  url: https://www.twitch.tv/dashducks
+  img: dashducks.png
+  twitter: spencerlambert
+  bch: true
+  btc: false
+  othercrypto: true
 - name: Elven Tower
   url: https://www.elventower.com/
   img: elventower.png
@@ -185,6 +192,13 @@ websites:
   bch: false
   twitter: Netflixhelps
   facebook: netflix
+- name: OurChickenLife
+  url: https://www.twitch.tv/ourchickenlife
+  img: ourchickenlife.png
+  twitter: spencerlambert
+  bch: true
+  btc: false
+  othercrypto: true
 - name: Pandora
   url: https://www.pandora.com
   img: pandora.png

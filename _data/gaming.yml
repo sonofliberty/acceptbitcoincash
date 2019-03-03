@@ -439,6 +439,16 @@ websites:
   bch: false
   twitter: RuneScape
   facebook: RuneScape
+- name: SCDKey
+  url: https://www.scdkey.com/
+  img: scdkey.png
+  twitter: scdkeys
+  facebook: SCDKeyfanpage
+  bch: true
+  btc: true
+  othercrypto: true
+  keywords:
+  - webmoney
 - name: Square Enix
   url: https://na.square-enix.com/us/home
   img: squarenix.png
@@ -516,14 +526,15 @@ websites:
 - name: Xbox Live (with Microsoft Account)
   url: https://www.xbox.com/live
   img: xbox.png
-  bch: false
-  btc: false
-  othercrypto: false
   twitter: XboxSupport
   facebook: Xbox
-  exceptions:
-    text: Xbox Live used to accept BTC & BCH, but as of 2018-07-07 stopped accepting
-      it
+  bch: true
+  btc: true
+  othercrypto: false
+  doc: https://support.microsoft.com/help/13942/
+  keywords:
+  - bitpay
+  - bip70
 - name: YoYo Games
   url: https://www.yoyogames.com/
   img: yoyogames.png

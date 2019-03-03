@@ -58,6 +58,18 @@ websites:
   othercrypto: true
   keywords:
   - coinbase
+- name: Electronic Frontier Foundation
+  url: https://www.eff.org/
+  img: eff.png
+  twitter: eff
+  facebook: eff
+  bch: true
+  btc: true
+  othercrypto: false
+  doc: https://supporters.eff.org/donate/
+  keywords:
+  - bitpay
+  - bip70
 - name: Ethiopiaid Australia
   url: https://ethiopiaid.org.au/
   img: EthiopiaidAustralia.png
@@ -86,6 +98,43 @@ websites:
   btc: true
   othercrypto: false
   doc: https://haveibeenpwned.com/Donate
+- name: Kokesh For President
+  url: https://kokeshforpresident.com/
+  img: kokeshforpresident.png
+  twitter: adamkokesh
+  bch: true
+  btc: true
+  othercrypto: true
+  doc: https://kokeshforpresident.com/contribute/
+  keywords:
+  - bitpay
+  - bip70
+- name: Libertarian Party
+  url: https://www.lp.org/
+  img: libertarianparty.png
+  twitter: lpnational
+  facebook: libertarians
+  email_address: info@lp.org
+  bch: true
+  btc: true
+  othercrypto: false
+  region: na
+  country: US
+  doc: https://www.lp.org/donate/bitcoin/
+  keywords:
+  - bitpay
+  - bip70
+- name: Lupus Foundation of America
+  url: https://www.lupus.org/
+  img: lupusfoundation.png
+  twitter: LupusOrg
+  facebook: LupusFoundationofAmerica
+  bch: true
+  btc: true
+  othercrypto: true
+  region: na
+  country: US
+  doc: https://www.lupus.org/news/lupus-foundation-of-america-announces-capability-to-accept-cryptocurrencies
 - name: Mises Institute
   url: https://mises.org/
   img: mises.png
@@ -104,6 +153,18 @@ websites:
   btc: true
   othercrypto: false
   doc: https://nutritionfacts.org/donate/
+- name: Piratpartiet
+  url: https://www.piratpartiet.se/
+  img: piratpartiet.png
+  twitter: piratpartiet
+  facebook: piratpartiet
+  bch: true
+  btc: true
+  othercrypto: false
+  region: eu
+  country: SE
+  lang: sv
+  doc: https://crowdfunding.piratpartiet.se/?page_id=85
 - name: SENS Research Foundation
   url: https://www.sens.org/
   img: sens.png
@@ -131,6 +192,13 @@ websites:
   btc: true
   othercrypto: true
   doc: https://www.theoceancleanup.com/fund/
+- name: Wau Holland Stiftung
+  url: https://www.wauland.de/
+  twitter: wauland
+  bch: false
+  btc: true
+  othercrypto: false
+  doc: https://www.wauland.de/en/donation.html
 - name: WeAreChange
   url: https://wearechange.org/
   img: wearechange.png
