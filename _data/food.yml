@@ -144,6 +144,13 @@ websites:
   bch: true
   btc: true
   othercrypto: false
+- name: CoffeeCoin
+  url: https://coffeecoin.io/
+  img: coffeecoin.png
+  twitter: javanomad
+  bch: true
+  btc: false
+  othercrypto: true
 - name: Crypto Mercado
   url: https://www.cryptomercado.com/
   img: cryptomercado.png
