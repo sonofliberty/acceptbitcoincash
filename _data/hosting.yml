@@ -521,7 +521,7 @@ websites:
   twitter: kinsta
   facebook: kinstahosting
   bch: false
-- name: Koddos
+- name: KoDDoS
   url: https://koddos.net
   img: Koddos.png
   bch: false
@@ -529,6 +529,8 @@ websites:
   othercrypto: true
   twitter: koddoscom
   facebook: koddoscom
+  keywords:
+  - coinpayments.net
 - name: LCN.com
   url: https://www.lcn.com
   twitter: lcndotcom
@@ -944,10 +946,12 @@ websites:
   twitter: ultraseedbox
   facebook: ultrasbox
   img: ultraseedbox.png
-  bch: false
+  bch: true
   btc: true
-  othercrypto: false
+  othercrypto: true
   doc: https://kb.ultraseedbox.com/display/DOC/Payments
+  keywords:
+  - coingate
 - name: UpCloud
   url: https://www.upcloud.com
   email_address: sales@upcloud.com

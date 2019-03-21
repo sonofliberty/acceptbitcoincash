@@ -200,6 +200,18 @@ websites:
   bch: false
   btc: false
   othercrypto: false
+- name: Dr Jeneby Plastic Surgery
+  url: https://drjenebyplasticsurgery.com/
+  img: drjeneby.png
+  twitter: drjeneby
+  facebook: DrJenebyPlasticSurgery
+  bch: true
+  btc: true
+  othercrypto: true
+  doc: https://drjenebyplasticsurgery.com/bitcoin-payments/
+  keywords:
+  - bitpay
+  - coinpayments.net
 - name: drchrono
   url: https://www.drchrono.com
   img: drchrono.png
@@ -438,6 +450,19 @@ websites:
   doc: https://www.premiermedicalinc.com/copy-2-of-payment
   keywords:
   - moneybutton
+- name: Psychology Practice Balans Training
+  url: https://www.balanstraining.nl
+  img: balanstraining.png
+  twitter: balanstraining
+  email_address: balanstraining@gmail.com
+  bch: true
+  btc: true
+  othercrypto: false
+  region: eu
+  country: NL
+  state: Gelderland
+  city: Arnhem
+  lang: nl
 - name: Putnams Health
   url: https://putnams.co.uk/
   img: putnams.png

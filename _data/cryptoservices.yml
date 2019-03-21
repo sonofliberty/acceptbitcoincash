@@ -480,6 +480,12 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: lazyfox.io
+  url: https://lazyfox.io/
+  img: lazyfoxio.png
+  bch: true
+  btc: false
+  othercrypto: false
 - name: Living Room of Satoshi
   url: https://www.livingroomofsatoshi.com/
   img: livingroom.png
@@ -605,9 +611,9 @@ websites:
 - name: SatoshiTango
   url: https://satoshitango.com/
   img: satoshitango.png
-  bch: false
+  bch: true
   btc: true
-  othercrypto: false
+  othercrypto: true
   facebook: satoshitangoargentina
   twitter: satoshitango
   email_address: support@satoshitango.com
@@ -627,6 +633,12 @@ websites:
   region: eu
   country: UA
   lang: uk
+- name: Statocashi
+  url: https://statocashi.info/
+  img: statocashi.png
+  bch: true
+  btc: false
+  othercrypto: false
 - name: The Big Coin
   url: https://www.thebigcoin.io
   img: thebigcoin.png
@@ -679,6 +691,13 @@ websites:
   btc: true
   othercrypto: true
   twitter: working4bitcoin
+- name: X Crypto Market
+  url: https://xcryptomarket.com/
+  img: xcryptomarket.png
+  twitter: xcryptomarket
+  facebook: X-Crypto-Market-183687882344015
+  bch: true
+  othercrypto: true
 - name: Xapo
   url: https://xapo.com
   img: xapo.png
@@ -688,6 +707,16 @@ websites:
   doc: https://blog.xapo.com/xapo-bitcoincash-bch-update/
   exceptions:
     text: Xapo has enabled Bitcoin Cash withdrawal but does not yet offer full support.
+- name: YOVO Pay
+  url: https://yovopay.com/
+  img: yovopay.png
+  bch: true
+  btc: true
+  othercrypto: true
+  exceptions:
+    text: They have a 19% fee which is not stated in their terms of service.
+  keywords:
+  - coingate
 - name: ZuPago
   url: https://zupago.pe/
   twitter: zupago

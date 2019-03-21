@@ -236,6 +236,8 @@ websites:
   bch: false
   btc: true
   othercrypto: true
+  keywords:
+  - coinpayments.net
 - name: CuffLinked
   url: http://www.cufflinked.com.au/
   img: cufflinked.png
@@ -377,16 +379,16 @@ websites:
   - bitpay
   - bip70
 - name: Giacomo Cortes
-  url: https://shop.giacomocortes.com/
+  url: https://giacomocortes.com/
   img: giacomocortes.png
   twitter: GiacomoCortes
   facebook: GiacomoCortes
-  lang: de
   bch: false
-  btc: true
+  btc: false
   othercrypto: false
-  keywords:
-  - coingate
+  exceptions:
+    text: Giacomo Cortes used to accept BTC, but as of 2019-03-21 stopped accepting
+      it
 - name: GORUCK
   url: https://www.goruck.com/
   img: goruck.png
@@ -486,6 +488,15 @@ websites:
   othercrypto: true
   keywords:
   - coinpayments.net
+- name: INKCru & Co
+  url: https://inkcru.com/
+  img: inkcruco.png
+  bch: true
+  btc: true
+  othercrypto: false
+  keywords:
+  - bitpay
+  - bip70
 - name: Joy Studio
   url: https://joystudio.fr/
   img: joystudio.png
@@ -672,14 +683,16 @@ websites:
   btc: true
   othercrypto: false
   doc: https://www.reddit.com/r/btc/comments/9i8kwk/i_got_octocool_to_start_accepting_bitcoin_cash/
-- name: Omura
-  url: https://shopomura.com
-  img: omura.png
-  twitter: shop_omura
-  facebook: shopomura
-  bch: false
+- name: Olympian Bitcoin Store
+  url: https://olympianbitcoin.store/
+  img: olympianbitcoin.png
+  twitter: OlympianBitcoin
+  bch: true
   btc: true
   othercrypto: true
+  doc: https://olympianbitcoin.store/pages/faq
+  keywords:
+  - coinpayments.net
 - name: Pastease
   url: https://pastease.com/
   img: pastease.png
