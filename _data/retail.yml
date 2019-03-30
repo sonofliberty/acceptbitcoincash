@@ -1917,6 +1917,15 @@ websites:
   othercrypto: false
   keywords:
   - bitpay
+- name: The Gamer's Hut
+  url: https://shopgamerhut.com
+  img: TheGamersHut.png
+  bch: true
+  btc: true
+  othercrypto: true
+  email_address: sales@shopgamerhut.com
+  region: na
+  country: US
 - name: ThinkPenguin
   url: https://www.thinkpenguin.com/
   img: thinkpenguin.png
