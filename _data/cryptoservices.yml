@@ -665,6 +665,16 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: The Crypto Industry Journal
+  url: https://www.katarinanolte.com/crypto-content-services/
+  img: TheCryptoIndustryJournal.png
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: katarinacrypto
+  email_address: katarinanolte@protonmail.com
+  keywords:
+  - coingate
 - name: The White Company
   url: https://thewhitecompanyus.com
   img: TheWhiteCompany.png
