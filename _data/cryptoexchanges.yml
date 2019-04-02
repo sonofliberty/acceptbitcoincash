@@ -214,6 +214,14 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: Cash2VN
+  url: https://www.cash2vn.com/
+  img: cash2vn.png
+  bch: true
+  btc: true
+  othercrypto: true
+  region: as
+  country: VN
 - name: CEX.IO
   url: https://cex.io/
   img: cex.png
@@ -460,6 +468,14 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: HOTBIT
+  url: https://www.hotbit.io/
+  img: hotbit.png
+  twitter: Hotbit_news
+  facebook: Hotbit.io
+  bch: true
+  btc: true
+  othercrypto: true
 - name: Huobi.pro
   url: https://www.huobi.pro/
   img: huobi.png
@@ -474,6 +490,16 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: InstaCrypto
+  url: https://www.instacrypto.in/
+  img: instacrypto.png
+  twitter: InstaCryptoIN
+  facebook: instacryptoin
+  bch: true
+  btc: true
+  othercrypto: true
+  region: as
+  country: IN
 - name: JIBEX
   url: https://www.jib-ex.com/
   img: jibex.png

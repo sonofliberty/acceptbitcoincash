@@ -1260,6 +1260,18 @@ websites:
   - headphones
   - wireless
   - exam
+- name: My Digital Discount
+  url: https://www.mydigitaldiscount.com/
+  img: mydigitaldiscount.png
+  twitter: mydigital
+  facebook: MyDigitalDiscount
+  bch: true
+  btc: true
+  othercrypto: false
+  doc: https://www.mydigitaldiscount.com/bitpay
+  keywords:
+  - bitpay
+  - bip70
 - name: Möbelmarkt Shop
   url: https://www.moebelmarkt-shop.de/
   img: moebelmarktshop.png
@@ -1414,6 +1426,16 @@ websites:
   bch: false
   btc: false
   othercrypto: false
+- name: Peaceful Warrior
+  url: https://peacefulwarrior.cash/
+  img: peacefulwarrior.png
+  twitter: pwdotcash
+  email_address: peacefulwarriorbch@gmail.com
+  bch: true
+  btc: true
+  othercrypto: true
+  keywords:
+  - coinbase
 - name: Peddler
   url: https://www.peddler.com/
   img: peddler.png
@@ -1881,6 +1903,15 @@ websites:
   keywords:
   - bitpay
   - bip70
+- name: Synergetic Press
+  url: https://www.synergeticpress.com/
+  img: synergeticpress.png
+  facebook: SynergeticPress
+  bch: true
+  btc: true
+  othercrypto: true
+  keywords:
+  - coinpayments.net
 - name: Target
   url: https://www.target.com/
   twitter: target
@@ -2081,12 +2112,37 @@ websites:
   bch: false
   twitter: zazzle
   facebook: zazzle
+- name: Zen Magnets
+  url: https://zenmagnets.com/
+  img: zenmagnets.png
+  twitter: zenmagnets
+  facebook: zenmagnets
+  email_address: contact@zenmagnets.com
+  doc: https://zenmagnets.com/relations/#FAQ
+  bch: true
+  btc: true
+  othercrypto: true
+  keywords:
+  - bitpay
+  - gocoin
 - name: ZimbabweDollars.net
   url: https://zimbabwedollars.net/
   img: zimbabwedollars.png
   bch: true
   btc: true
   othercrypto: false
+  keywords:
+  - bitpay
+  - bip70
+- name: ZUMI
+  url: https://zumi.com.au/
+  img: zumi.png
+  bch: true
+  btc: true
+  othercrypto: false
+  region: oc
+  country: AU
+  doc: https://zumi.com.au/pages/buy-with-bitcoin-australia
   keywords:
   - bitpay
   - bip70

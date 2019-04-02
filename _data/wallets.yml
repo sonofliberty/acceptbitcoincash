@@ -1,7 +1,7 @@
 ---
 websites:
 - name: BCHgallery
-  url: https://pokkst.xyz/
+  url: https://pokkst.xyz/info/bchgallery/
   bch: true
   btc: false
   othercrypto: false
@@ -111,6 +111,12 @@ websites:
   twitter: bitpay
   bch: true
   btc: true
+  othercrypto: false
+- name: Crescent Cash
+  url: https://pokkst.xyz/crescentcash/
+  twitter: pokkst
+  bch: true
+  btc: false
   othercrypto: false
 - name: Edge
   url: https://edgesecure.co
