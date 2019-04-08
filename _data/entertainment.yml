@@ -67,6 +67,15 @@ websites:
   keywords:
   - bitpay
   - bip70
+- name: Cointube.cash
+  url: https://cointube.cash
+  img: Cointubecash.png
+  bch: true
+  btc: false
+  othercrypto: false
+  twitter: pajeetgurav
+  email_address: contact@cointube.cash
+  doc: https://www.reddit.com/r/btc/comments/ban26h/a_video_streaming_platform_is_coming_to_bitcoin/
 - name: computerbase.de
   url: https://www.computerbase.de/
   img: computerbase.png
