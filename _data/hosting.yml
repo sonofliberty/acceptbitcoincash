@@ -107,6 +107,17 @@ websites:
   bch: false
   twitter: bluehost
   facebook: bluehost
+- name: BudgetNode
+  url: https://budgetnode.com/
+  img: budgetnode.png
+  twitter: BudgetNode
+  facebook: BudgetNodeVPS
+  bch: true
+  btc: true
+  othercrypto: false
+  keywords:
+  - bitpay
+  - bip70
 - name: BuyVM
   url: https://www.buyvm.net/
   img: buyvm.png
