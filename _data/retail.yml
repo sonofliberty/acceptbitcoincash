@@ -2023,6 +2023,15 @@ websites:
   bch: true
   btc: true
   othercrypto: false
+- name: VituVipi
+  url: https://vituvipi.online
+  img: VituVipi.png
+  bch: true
+  btc: false
+  othercrypto: true
+  email_address: vituvipi@vituvipi.online
+  country: CD
+  city: Kinshasa 
 - name: Walgreens
   url: https://www.walgreens.com
   twitter: walgreens
