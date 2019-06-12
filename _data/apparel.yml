@@ -662,6 +662,17 @@ websites:
   keywords:
   - bitpay
   - bip70
+- name: Print-ted.com
+  url: https://print-ted.com
+  img: Printtedcom.png
+  bch: true
+  btc: false
+  othercrypto: true
+  twitter: printtedstore
+  email_address: info@print-ted.com
+  doc: https://print-ted.com/pages/payment-methods
+  keywords:
+  - coinpayments.net
 - name: Pro Crypto
   url: http://procrypto.net/
   img: procrypto.png
