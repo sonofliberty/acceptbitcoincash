@@ -233,6 +233,14 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: Costa Rica Servers
+  url: https://crservers.com/
+  img: costaricaservers.png
+  bch: true
+  btc: true
+  othercrypto: true
+  keywords:
+  - coinpayments.net
 - name: CrownCloud
   url: https://crowncloud.net/
   img: crowncloud.png
@@ -841,6 +849,15 @@ websites:
     text: Link to complete payment at Support page
   keywords:
   - coinpayments.net
+- name: Serveo
+  url: https://serveo.nl/
+  img: serveo.png
+  bch: true
+  btc: true
+  othercrypto: false
+  keywords:
+  - bitpay
+  - bip70
 - name: ServerAstra
   url: https://serverastra.com/
   img: serverastra.png
