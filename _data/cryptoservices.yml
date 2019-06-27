@@ -179,6 +179,13 @@ websites:
   bch: true
   btc: false
   othercrypto: false
+- name: Cardbit
+  url: http://www.cardbit.io
+  img: Cardbit.png
+  bch: false
+  btc: true
+  othercrypto: true
+  email_address: ok@cardbit.io
 - name: ChainTip
   url: https://www.chaintip.org/
   img: chaintip.png
