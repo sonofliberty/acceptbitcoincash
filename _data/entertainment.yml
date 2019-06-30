@@ -34,7 +34,6 @@ websites:
   url: https://www.bigtickets.com/
   img: bigtickets.png
   twitter: realbigtickets
-  facebook: xorbia
   bch: true
   btc: false
   othercrypto: false
@@ -173,7 +172,6 @@ websites:
   url: https://www.last.fm/
   img: lastfm.png
   bch: false
-  twitter: lastfmsupport
   facebook: lastfm
 - name: Louis C.K.
   url: https://louisck.net/

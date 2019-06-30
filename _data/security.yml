@@ -228,7 +228,6 @@ websites:
   btc: true
   bch: true
   othercrypto: true
-  twitter: interssl
   facebook: interssl
   keywords:
   - bitpay
@@ -386,7 +385,6 @@ websites:
   bch: true
   btc: true
   othercrypto: true
-  twitter: purevpn
   facebook: PureVPNcom
   keywords:
   - coinpayments.net
