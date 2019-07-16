@@ -314,6 +314,14 @@ websites:
   bch: true
   btc: true
   othercrypto: false
+- name: Spincy Watches
+  url: https://spincy.com
+  img: SpincyWatches.png
+  bch: true
+  btc: true
+  othercrypto: true
+  email_address: garydeed@protonmail.com
+  doc: https://www.reddit.com/r/btc/comments/cdp9kq/my_website_now_supports_bitcoin_cash/
 - name: That Ring Shop
   url: https://thatringshop.com/
   img: thatringshop.png
