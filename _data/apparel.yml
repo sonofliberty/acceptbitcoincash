@@ -798,6 +798,14 @@ websites:
   bch: true
   btc: true
   othercrypto: false
+- name: trapr street clothing
+  url: https://www.trapr.shop
+  img: traprstreetclothing.png
+  bch: true
+  btc: false
+  othercrypto: true
+  facebook: trapr.official
+  email_address: martin.vincetic@gmail.com
 - name: Uhrzeit.org
   url: https://www.uhrzeit.org/
   img: uhrzeitorg.png
