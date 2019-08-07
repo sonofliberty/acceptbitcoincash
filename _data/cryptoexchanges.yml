@@ -313,6 +313,13 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: Coincash
+  url: https://coinca.sh
+  img: Coincash.png
+  bch: true
+  btc: true
+  othercrypto: true
+  email_address: help@coinca.sh
 - name: CoinCola
   url: https://www.coincola.com/
   img: coincola.png
