@@ -39,6 +39,18 @@ websites:
   bch: true
   btc: true
   othercrypto: false
+- name: Cheap Lightning
+  url: https://www.cheaplightning.com
+  img: CheapLightning.png
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: cheaplightnings
+  facebook: cheaplightning
+  email_address: questions@cheaplightning.com
+  doc: https://www.cheaplightning.com/bitcoin/
+  exceptions:
+    text: "Select the Bitcoin Cash option when checking out their shopping cart."
 - name: Chess Tempo
   url: https://chesstempo.com/
   img: chesstempo.png
